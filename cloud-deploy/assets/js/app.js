@@ -584,14 +584,13 @@ function openAppDetailModal(appId) {
   if (!app) return;
 
   const content = document.getElementById('cwModalContent');
-  // Exact Play Store link (e.g. details?id=com.pocketdev.ai.appbuilder)
-  const storeLink = app.play_store_url || (app.package_name ? 'https://play.google.com/store/apps/details?id=' + app.package_name : app.web_url || '#');
+  const storeLink = app.play_store_url || ('https://play.google.com/store/apps/details?id=' + app.package_name);
 
   content.innerHTML = `
-    <div class="flex flex-col md:flex-row gap-6">
-      <img src="${app.icon}" alt="${escapeHtml(app.name)}" class="w-32 h-32 md:w-36 md:h-36 rounded-3xl object-cover shadow-2xl mx-auto md:mx-0 border-2 border-slate-700 bg-slate-800" onerror="this.src='/assets/icons/pocketdev-ai.svg'">
+    <div class="flex flex-col md:flex-row gap-6 mb-6">
+      <img src="${app.icon}" alt="${escapeHtml(app.name)}" class="w-28 h-28 md:w-32 md:h-32 rounded-3xl object-cover shadow-2xl mx-auto md:mx-0 border-2 border-slate-700 bg-slate-800">
       <div class="flex-1">
-        <div class="flex items-center gap-2 mb-2">
+        <div class="flex items-center gap-2 mb-2 flex-wrap">
           <span class="px-2.5 py-0.5 text-xs font-bold rounded-full bg-cyan-950 text-cyan-300 border border-cyan-500/30">${escapeHtml(app.category)}</span>
           <span class="px-2.5 py-0.5 text-xs font-bold rounded-full bg-emerald-950 text-emerald-400 border border-emerald-500/30 flex items-center gap-1">
             <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
@@ -605,33 +604,44 @@ function openAppDetailModal(appId) {
           <span class="text-amber-400 font-bold flex items-center gap-0.5 text-sm">★ ${app.rating}</span>
           <span class="text-slate-400">(${app.reviews_count} reviews)</span>
           <span class="text-slate-600">•</span>
-          <span class="text-slate-300 font-bold">${app.installs || '50K+'} Downloads</span>
+          <span class="text-slate-200 font-bold">${app.installs || '25K+'} Downloads</span>
         </div>
         
-        <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-6">${escapeHtml(app.description)}</p>
-        
-        <div class="mb-6 bg-slate-800/60 p-4 rounded-2xl border border-slate-700">
-          <h4 class="text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">Core Features</h4>
-          <div class="grid grid-cols-2 gap-2">
-            ${(app.features || []).map(f => `
-              <div class="flex items-center gap-1.5 text-xs text-slate-300">
-                <svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                ${escapeHtml(f)}
-              </div>
-            `).join('')}
-          </div>
-        </div>
-
-        <div class="flex items-center gap-3 flex-wrap">
-          <a href="${storeLink}" target="_blank" rel="noopener noreferrer" onclick="playHapticClick()" class="px-6 py-3 bg-[#01875f] hover:bg-[#017250] text-white font-extrabold text-sm rounded-xl flex items-center gap-2 shadow-xl shadow-emerald-950/40 transition-all hover:scale-105">
-            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M3.609 1.814L13.792 12 3.61 22.186a2.38 2.38 0 01-.61-1.614V3.428c0-.627.228-1.206.61-1.614zm11.602 11.602l2.36 2.36-11.492 6.64 9.132-9zm2.36-2.36l-2.36 2.36-9.132-9 11.492 6.64zm1.442 1.442l3.412 1.972a1.763 1.763 0 010 3.06l-3.412 1.972-2.36-2.36 2.36-2.644z"/></svg>
-            <span>Install on Google Play</span>
-          </a>
-          <a href="${app.privacy_policy_url || 'https://consultways.com/privacy-policy/'}" target="_blank" rel="noopener" class="px-4 py-3 border border-slate-700 text-slate-300 hover:bg-slate-800 text-xs font-semibold rounded-xl transition-colors">
-            Privacy Policy
-          </a>
-        </div>
+        <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-4">${escapeHtml(app.description)}</p>
       </div>
+    </div>
+
+    ${app.screenshots && app.screenshots.length > 0 ? `
+    <div class="mb-6">
+      <h4 class="text-xs font-bold text-slate-300 uppercase tracking-wider mb-3">Official Google Play Screenshots</h4>
+      <div class="flex gap-3 overflow-x-auto pb-2 scrollbar-thin">
+        ${app.screenshots.map(ss => `
+          <img src="${ss}" alt="Screenshot" class="h-56 sm:h-64 rounded-xl object-cover border border-slate-700 bg-slate-800 shadow-lg flex-shrink-0">
+        `).join('')}
+      </div>
+    </div>
+    ` : ''}
+
+    <div class="mb-6 bg-slate-800/60 p-4 rounded-2xl border border-slate-700">
+      <h4 class="text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">Core Features</h4>
+      <div class="grid grid-cols-2 gap-2">
+        ${(app.features || []).map(f => `
+          <div class="flex items-center gap-1.5 text-xs text-slate-300">
+            <svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            ${escapeHtml(f)}
+          </div>
+        `).join('')}
+      </div>
+    </div>
+
+    <div class="flex items-center gap-3 flex-wrap pt-2">
+      <a href="${storeLink}" target="_blank" rel="noopener noreferrer" onclick="playHapticClick()" class="px-6 py-3.5 cw-play-btn text-white font-extrabold text-sm rounded-xl flex items-center gap-2 shadow-xl shadow-emerald-950/40">
+        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M3.609 1.814L13.792 12 3.61 22.186a2.38 2.38 0 01-.61-1.614V3.428c0-.627.228-1.206.61-1.614zm11.602 11.602l2.36 2.36-11.492 6.64 9.132-9zm2.36-2.36l-2.36 2.36-9.132-9 11.492 6.64zm1.442 1.442l3.412 1.972a1.763 1.763 0 010 3.06l-3.412 1.972-2.36-2.36 2.36-2.644z"/></svg>
+        <span>Install on Official Google Play Store</span>
+      </a>
+      <a href="${app.privacy_policy_url || 'https://consultways.com/privacy-policy/'}" target="_blank" rel="noopener" class="px-4 py-3.5 border border-slate-700 text-slate-300 hover:bg-slate-800 text-xs font-semibold rounded-xl transition-colors">
+        Privacy Policy
+      </a>
     </div>
   `;
 

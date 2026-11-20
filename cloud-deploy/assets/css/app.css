@@ -266,3 +266,56 @@ body {
 ::-webkit-scrollbar-track { background: #f1f5f9; }
 ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
 ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+
+
+/* =========================================================
+   DARK CYBER THEME & SOLID CARDS FOR APPS PAGE
+   ========================================================= */
+body.cw-dark-page {
+  background-color: #0b0f19 !important;
+  color: #f8fafc !important;
+}
+
+.cw-app-card {
+  background-color: #111827 !important;
+  border: 1px solid #1f2937 !important;
+  border-radius: 1.5rem !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5) !important;
+  color: #ffffff !important;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease, border-color 0.3s ease !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.cw-app-card:hover {
+  transform: translateY(-6px) scale(1.01) !important;
+  border-color: #06b6d4 !important;
+  box-shadow: 0 20px 35px -8px rgba(6, 182, 212, 0.3) !important;
+}
+
+.cw-marquee-card {
+  background-color: #111827 !important;
+  border: 1px solid #1f2937 !important;
+  color: #ffffff !important;
+  transition: all 0.25s ease !important;
+}
+
+.cw-marquee-card:hover {
+  border-color: #38bdf8 !important;
+  background-color: #1e293b !important;
+  transform: scale(1.05) !important;
+  box-shadow: 0 15px 30px rgba(56, 189, 248, 0.35) !important;
+}
+
+.cw-play-btn {
+  background-color: #01875f !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  transition: all 0.2s ease !important;
+}
+
+.cw-play-btn:hover {
+  background-color: #017250 !important;
+  transform: scale(1.03) !important;
+  box-shadow: 0 6px 20px rgba(1, 135, 95, 0.45) !important;
+}
