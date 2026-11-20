@@ -1,0 +1,32 @@
+/*
+Theme Name: Astra Child - ConsultWays Hub
+Theme URI: https://hub.consultways.com/
+Description: Custom lightweight child theme for ConsultWays Hub on Astra, optimized for Dokan Multi-Vendor & WooCommerce.
+Author: ConsultWays Limited
+Author URI: https://consultways.com/
+Template: astra
+Version: 1.0.0
+*/
+
+/* Custom Glassmorphism and Badges */
+.cw-badge-temu {
+  background: linear-gradient(135deg, #ff4e00 0%, #ff0055 100%);
+  color: #fff;
+  font-weight: 700;
+  border-radius: 9999px;
+  padding: 4px 12px;
+  font-size: 11px;
+}
+
+.cw-app-card {
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+  background: #ffffff;
+  padding: 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cw-app-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px -6px rgba(15, 23, 42, 0.12);
+}
