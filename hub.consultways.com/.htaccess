@@ -11,8 +11,8 @@
   RewriteCond %{HTTPS} !=on
   RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-  # Block direct access to raw data JSON files
-  RewriteRule ^data/ - [F,L]
+  # Block direct access to raw data JSON files and sensitive files
+  RewriteRule ^(data|\.env|\.git|config\.local\.php) - [F,L]
 
   # Route Clean URLs to index.php
   RewriteCond %{REQUEST_FILENAME} !-f
@@ -23,6 +23,12 @@
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteRule ^item/([a-zA-Z0-9_-]+)/?$ index.php?view=marketplace&slug=$1 [QSA,L]
 </IfModule>
+
+# Block .env and sensitive dotfiles
+<FilesMatch "^(\.env|config\.local\.php|\.git)">
+  Order allow,deny
+  Deny from all
+</FilesMatch>
 
 # Prevent PHP execution in uploads directory
 <Directory "uploads">

@@ -1,0 +1,10 @@
+# Cloudflare Pages Clean Rewrites
+/apps /apps.html 200
+/marketplace /marketplace.html 200
+/post-listing /post-listing.html 200
+/dashboard /dashboard.html 200
+/privacy /privacy.html 200
+/terms /terms.html 200
+/refund /refund.html 200
+/shipping /shipping.html 200
+/item/* /marketplace.html 200

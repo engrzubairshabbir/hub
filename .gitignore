@@ -5,7 +5,16 @@ node_modules/
 .vscode/
 .idea/
 
-# Temp & logs
-*.log
+# Environment files & Secrets (CRITICAL: Never commit to GitHub)
+.env
+.env.*
+*.env
+config.local.php
+*.key
+*.pem
+
+# Zip archives & temporary builds
+*.zip
 scratch/
 tmp/
+*.log

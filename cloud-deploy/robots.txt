@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /data/
+Disallow: /dashboard
+
+User-agent: Mediapartners-Google
+Allow: /
+
+Sitemap: https://hub.consultways.com/sitemap.xml
