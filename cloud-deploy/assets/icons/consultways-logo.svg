@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="cwGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+    <linearGradient id="cwGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+    <linearGradient id="cwGrad3" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#00f0ff" />
+    </linearGradient>
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Dark Rounded Container -->
+  <rect width="512" height="512" rx="128" fill="#0b1120" />
+  <rect x="6" y="6" width="500" height="500" rx="122" stroke="url(#cwGrad1)" stroke-width="4" stroke-opacity="0.5" />
+
+  <!-- Outer Isometric Cube/Hexagon Facets -->
+  <g filter="url(#neonGlow)">
+    <!-- 'C' Arch -->
+    <path d="M 230 110 C 140 110 90 170 90 256 C 90 342 140 402 230 402 C 290 402 330 370 350 330 L 290 295 C 275 320 255 335 225 335 C 175 335 155 295 155 256 C 155 217 175 177 225 177 C 255 177 275 192 290 217 L 350 182 C 330 142 290 110 230 110 Z" fill="url(#cwGrad1)" />
+
+    <!-- 'W' Lightning Cyber Dynamic Wings -->
+    <path d="M 270 175 L 325 345 L 365 240 L 405 345 L 460 175 L 405 175 L 380 270 L 350 175 L 325 175 L 295 270 L 270 175 Z" fill="url(#cwGrad2)" />
+
+    <!-- Central Glowing Core Spark -->
+    <circle cx="256" cy="256" r="16" fill="#ffffff" />
+    <circle cx="256" cy="256" r="28" fill="url(#cwGrad3)" opacity="0.6" />
+  </g>
+</svg>

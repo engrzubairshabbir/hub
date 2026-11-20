@@ -1,0 +1,438 @@
+[
+  {
+    "id": "app-cw-5",
+    "name": "PocketDev AI",
+    "developer": "ConsultWays",
+    "package_name": "com.pocketdev.ai.appbuilder",
+    "category": "Developer Tools",
+    "rating": "4.9",
+    "reviews_count": "950+",
+    "installs": "20,000+",
+    "play_store_url": "https://play.google.com/store/apps/details?id=com.pocketdev.ai.appbuilder",
+    "privacy_policy_url": "https://consultways.com/privacy-policy/",
+    "icon": "/assets/icons/pocketdev-ai.svg",
+    "badge": "4.9★ Dev Choice",
+    "description": "Your pocket-sized AI coding companion and visual builder. Debug regex, generate full stack schemas, SQL queries, and test REST endpoints on mobile.",
+    "features": [
+      "Visual AI App Builder",
+      "Multi-Language Code Fixer",
+      "Regex & SQL Generator",
+      "API Payload Tester"
+    ]
+  },
+  {
+    "id": "app-cw-1",
+    "name": "DocuSnap AI: Bill & Rx Finder",
+    "developer": "ConsultWays",
+    "package_name": "com.docusnap.ai",
+    "category": "Productivity / AI Utilities",
+    "rating": "4.8",
+    "reviews_count": "1.2k+",
+    "installs": "50,000+",
+    "play_store_url": "https://play.google.com/store/apps/details?id=com.docusnap.ai",
+    "privacy_policy_url": "https://consultways.com/privacy-policy/",
+    "icon": "/assets/icons/docusnap-ai.svg",
+    "badge": "Featured AI App",
+    "description": "Scan utility bills, medical prescriptions, and expense receipts with lightning-fast on-device OCR and AI parsing. Highlights payment dates and dosage warnings.",
+    "features": [
+      "Intelligent OCR Engine",
+      "Due Date & Amount Alerts",
+      "Secure On-Device Storage",
+      "1-Click PDF Export"
+    ]
+  },
+  {
+    "id": "app-cw-2",
+    "name": "StudyPal — Focus & Parental Control",
+    "developer": "ConsultWays",
+    "package_name": "com.consultways.studypal",
+    "web_url": "https://focus.consultways.com",
+    "category": "Education / Productivity",
+    "rating": "4.6",
+    "reviews_count": "840+",
+    "installs": "25,000+",
+    "play_store_url": "https://play.google.com/store/apps/details?id=com.consultways.studypal",
+    "privacy_policy_url": "https://focus.consultways.com/privacy",
+    "icon": "/assets/icons/studypal.svg",
+    "badge": "Editor's Choice",
+    "description": "All-in-one focus timer, app blocker, and smart parental companion designed to boost study productivity and minimize screen distractions.",
+    "features": [
+      "Pomodoro Focus Timer",
+      "Distraction App Blocker",
+      "Parental Screen Reports",
+      "Goal Tracking"
+    ]
+  },
+  {
+    "id": "app-tb-1",
+    "name": "TunnelSurf: Neon Bike Racing",
+    "developer": "ConsultWays",
+    "package_name": "com.tunnelsurf.neonbike",
+    "category": "Games / Arcade",
+    "rating": "4.6",
+    "reviews_count": "4.1k+",
+    "installs": "120,000+",
+    "play_store_url": "https://play.google.com/store/apps/details?id=com.tunnelsurf.neonbike",
+    "privacy_policy_url": "https://consultways.com/privacy-policy/",
+    "icon": "/assets/icons/tunnelsurf.svg",
+    "badge": "Viral Arcade",
+    "description": "High-octane neon cyber-tunnel bike racer with synthwave soundtrack, adrenaline obstacles, and customizable glowing super-bikes.",
+    "features": [
+      "60fps Hyper-Smooth Gameplay",
+      "Synthwave Soundtrack",
+      "Global Leaderboards",
+      "Custom Neon Bikes"
+    ]
+  },
+  {
+    "id": "app-tb-2",
+    "name": "Clipboard Saver – Copy History",
+    "developer": "ConsultWays",
+    "package_name": "com.clipboardsaver.history",
+    "category": "Productivity / Utilities",
+    "rating": "4.7",
+    "reviews_count": "2.3k+",
+    "installs": "70,000+",
+    "play_store_url": "https://play.google.com/store/apps/details?id=com.clipboardsaver.history",
+    "privacy_policy_url": "https://consultways.com/privacy-policy/",
+    "icon": "/assets/icons/clipboardsaver.svg",
+    "badge": "Essential Tool",
+    "description": "Never lose copied text, links, or code snippets again. Unlimited clipboard history with floating bubble, search, and encrypted backup.",
+    "features": [
+      "Unlimited Copy History",
+      "Quick Floating Bubble",
+      "Search & Pin Snippets",
+      "Encrypted Data Vault"
+    ]
+  },
+  {
+    "id": "app-tb-5",
+    "name": "NeuroSilence: Calm & Relax",
+    "developer": "ConsultWays",
+    "package_name": "com.neurosilence.relax",
+    "category": "Health & Fitness",
+    "rating": "4.8",
+    "reviews_count": "3.2k+",
+    "installs": "90,000+",
+    "play_store_url": "https://play.google.com/store/apps/details?id=com.neurosilence.relax",
+    "privacy_policy_url": "https://consultways.com/privacy-policy/",
+    "icon": "/assets/icons/neurosilence.svg",
+    "badge": "4.8★ Calm Tech",
+    "description": "Scientifically engineered binaural beats, pink noise, and alpha brainwave sessions designed for deep focus, meditation, and deep sleep.",
+    "features": [
+      "Alpha & Theta Binaural Beats",
+      "Custom Rain & Forest Mixer",
+      "Sleep Timer with Auto-Fade",
+      "100% Offline Audio"
+    ]
+  },
+  {
+    "id": "app-cw-6",
+    "name": "AlarmReminder Pro: AI Alarm",
+    "developer": "ConsultWays",
+    "package_name": "com.alarmreminder.pro",
+    "category": "Lifestyle / Productivity",
+    "rating": "4.5",
+    "reviews_count": "1.5k+",
+    "installs": "40,000+",
+    "play_store_url": "https://play.google.com/store/apps/details?id=com.alarmreminder.pro",
+    "privacy_policy_url": "https://consultways.com/privacy-policy/",
+    "icon": "/assets/icons/alarmreminder.svg",
+    "badge": "Smart Wakeup",
+    "description": "Smart morning wake-up routine powered by AI voice briefings: weather, headlines, and daily calendar spoken aloud as your alarm rings.",
+    "features": [
+      "AI Voice Briefings",
+      "Math & Barcode Missions",
+      "Gentle Ascending Volume",
+      "Sleep Tracking"
+    ]
+  },
+  {
+    "id": "app-cw-3",
+    "name": "Maria.B. Clothes Online Shoppi",
+    "developer": "ConsultWays",
+    "package_name": "com.mariab.shopping",
+    "category": "Shopping / Fashion",
+    "rating": "4.3",
+    "reviews_count": "3.4k+",
+    "installs": "100,000+",
+    "play_store_url": "https://play.google.com/store/apps/details?id=com.mariab.shopping",
+    "privacy_policy_url": "https://consultways.com/privacy-policy/",
+    "icon": "/assets/icons/mariab.svg",
+    "badge": "Trending 4.3★",
+    "description": "Browse luxury unstitched lawn, pret wear, and couture bridal collections with instant stock updates and high-definition lookbooks.",
+    "features": [
+      "Latest Couture Lookbooks",
+      "HD Zoom Catalog",
+      "Wishlist & Price Alerts",
+      "Express Delivery"
+    ]
+  },
+  {
+    "id": "app-cw-4",
+    "name": "Huda Beauty & Skin Care Store",
+    "developer": "ConsultWays",
+    "package_name": "com.hudabeauty.shopping",
+    "category": "Shopping / Cosmetics",
+    "rating": "4.7",
+    "reviews_count": "2.8k+",
+    "installs": "75,000+",
+    "play_store_url": "https://play.google.com/store/apps/details?id=com.hudabeauty.shopping",
+    "privacy_policy_url": "https://consultways.com/privacy-policy/",
+    "icon": "/assets/icons/hudabeauty.svg",
+    "badge": "Top Rated 4.7★",
+    "description": "Curated skincare routines, makeup palettes, and lip shade finders with skin-tone matching tutorials and authentic batch verification.",
+    "features": [
+      "Shade Matching Guide",
+      "Routine Builder",
+      "Batch Authenticity Check",
+      "Global Beauty Deals"
+    ]
+  },
+  {
+    "id": "app-cw-7",
+    "name": "Sana&Safinas Style Shop 2024",
+    "developer": "ConsultWays",
+    "package_name": "com.sanasafinas.shopping",
+    "category": "Shopping / Fashion",
+    "rating": "4.4",
+    "reviews_count": "1.9k+",
+    "installs": "60,000+",
+    "play_store_url": "https://play.google.com/store/apps/details?id=com.sanasafinas.shopping",
+    "privacy_policy_url": "https://consultways.com/privacy-policy/",
+    "icon": "/assets/icons/sanasafinas.svg",
+    "badge": "Eastern Couture",
+    "description": "Designer Eastern couture, embroidered chiffon, and luxury pret collections curated for contemporary fashion lovers.",
+    "features": [
+      "Lookbook Browser",
+      "Fabric Guides",
+      "Stock Lookup",
+      "Exclusive Offers"
+    ]
+  },
+  {
+    "id": "app-tb-3",
+    "name": "Neon City Jump - Relaxing Game",
+    "developer": "ConsultWays",
+    "package_name": "com.neoncity.jump",
+    "category": "Games / Casual",
+    "rating": "4.4",
+    "reviews_count": "1.8k+",
+    "installs": "50,000+",
+    "play_store_url": "https://play.google.com/store/apps/details?id=com.neoncity.jump",
+    "privacy_policy_url": "https://consultways.com/privacy-policy/",
+    "icon": "/assets/icons/neoncityjump.svg",
+    "badge": "Relaxing Zen",
+    "description": "One-tap zen platform jumper across futuristic neon skyscrapers with ambient calming soundscapes.",
+    "features": [
+      "1-Tap Controls",
+      "Stress Relief Sounds",
+      "Infinite Levels",
+      "Offline Playable"
+    ]
+  },
+  {
+    "id": "app-tb-4",
+    "name": "Global Exchange Pro Lite",
+    "developer": "ConsultWays",
+    "package_name": "com.globalexchange.pro",
+    "category": "Finance / Crypto",
+    "rating": "4.5",
+    "reviews_count": "1.1k+",
+    "installs": "35,000+",
+    "play_store_url": "https://play.google.com/store/apps/details?id=com.globalexchange.pro",
+    "privacy_policy_url": "https://consultways.com/privacy-policy/",
+    "icon": "/assets/icons/globalexchange.svg",
+    "badge": "Live Forex",
+    "description": "Lightweight real-time forex rate and cryptocurrency tracker with price alerts and offline rate caching.",
+    "features": [
+      "170+ Fiat Currencies",
+      "Top 50 Cryptos",
+      "Historical Charts",
+      "Custom Alerts"
+    ]
+  },
+  {
+    "id": "app-tb-6",
+    "name": "Palladium Boots | Shop USA",
+    "developer": "ConsultWays",
+    "package_name": "com.palladiumboots.shop",
+    "category": "Shopping / Footwear",
+    "rating": "4.1",
+    "reviews_count": "890+",
+    "installs": "30,000+",
+    "play_store_url": "https://play.google.com/store/apps/details?id=com.palladiumboots.shop",
+    "privacy_policy_url": "https://consultways.com/privacy-policy/",
+    "icon": "/assets/icons/palladiumboots.svg",
+    "badge": "Urban Footwear",
+    "description": "Rugged urban boots and tactical canvas footwear catalog with international size conversion guides.",
+    "features": [
+      "Size Matrix",
+      "Waterproof Specs",
+      "Direct Retail Deals",
+      "Trending Boots"
+    ]
+  },
+  {
+    "id": "app-tb-7",
+    "name": "Bohemian Free Peoples Clothes",
+    "developer": "ConsultWays",
+    "package_name": "com.bohemian.clothes",
+    "category": "Shopping / Lifestyle",
+    "rating": "4.6",
+    "reviews_count": "1.4k+",
+    "installs": "45,000+",
+    "play_store_url": "https://play.google.com/store/apps/details?id=com.bohemian.clothes",
+    "privacy_policy_url": "https://consultways.com/privacy-policy/",
+    "icon": "/assets/icons/bohemian.svg",
+    "badge": "Boho Chic",
+    "description": "Vintage aesthetics, festival clothing, and artisanal bohemian fashion collections.",
+    "features": [
+      "Curated Lookbooks",
+      "Vintage Finds",
+      "Direct Merchant Deals",
+      "Style Boards"
+    ]
+  },
+  {
+    "id": "app-tb-8",
+    "name": "ETeam Tool Kit Professional",
+    "developer": "ConsultWays",
+    "package_name": "com.eteam.toolkit",
+    "category": "Business / Productivity",
+    "rating": "4.5",
+    "reviews_count": "670+",
+    "installs": "18,000+",
+    "play_store_url": "https://play.google.com/store/apps/details?id=com.eteam.toolkit",
+    "privacy_policy_url": "https://consultways.com/privacy-policy/",
+    "icon": "/assets/icons/eteam.svg",
+    "badge": "Field Ops",
+    "description": "Field team tracking, GPS work order checklists, and digital timestamped reporting for remote coordinators.",
+    "features": [
+      "GPS Check-ins",
+      "Offline Work Orders",
+      "Photo Proof",
+      "Team Sync"
+    ]
+  },
+  {
+    "id": "app-cw-9",
+    "name": "Universal Calculations 2023",
+    "developer": "ConsultWays",
+    "package_name": "com.universalcalc.tool",
+    "category": "Tools / Utilities",
+    "rating": "4.5",
+    "reviews_count": "2.1k+",
+    "installs": "80,000+",
+    "play_store_url": "https://play.google.com/store/apps/details?id=com.universalcalc.tool",
+    "privacy_policy_url": "https://consultways.com/privacy-policy/",
+    "icon": "/assets/icons/universalcalc.svg",
+    "badge": "All-in-One Calc",
+    "description": "Comprehensive financial EMI, GST/VAT tax, scientific computing, and unit conversion suite.",
+    "features": [
+      "Loan EMI & Mortgages",
+      "GST & Custom Taxes",
+      "Scientific Formulas",
+      "150+ Unit Conversions"
+    ]
+  },
+  {
+    "id": "app-cw-10",
+    "name": "UniversityHub: AIOU Pakistan",
+    "developer": "ConsultWays",
+    "package_name": "com.universityhub.aiou",
+    "category": "Education / Student Tools",
+    "rating": "4.2",
+    "reviews_count": "5.6k+",
+    "installs": "150,000+",
+    "play_store_url": "https://play.google.com/store/apps/details?id=com.universityhub.aiou",
+    "privacy_policy_url": "https://consultways.com/privacy-policy/",
+    "icon": "/assets/icons/universityhub.svg",
+    "badge": "150k+ Students",
+    "description": "Companion portal for distance learning students: instant result checking, assignment dates, and tutor finder.",
+    "features": [
+      "Instant Results",
+      "Assignment Reminders",
+      "Roll Number Slips",
+      "Tutor Directory"
+    ]
+  },
+  {
+    "id": "app-cw-8",
+    "name": "Consult Ways Limited",
+    "developer": "ConsultWays",
+    "package_name": "com.consultways.app",
+    "category": "Business Services",
+    "rating": "5.0",
+    "reviews_count": "780+",
+    "installs": "15,000+",
+    "play_store_url": "https://play.google.com/store/apps/details?id=com.consultways.app",
+    "privacy_policy_url": "https://consultways.com/privacy-policy/",
+    "icon": "/assets/icons/consultways-app.svg",
+    "badge": "5.0★ Official",
+    "description": "Official enterprise portal: schedule strategy consultations, explore SaaS tools, and access verified contracts.",
+    "features": [
+      "Consultant Booking",
+      "Project Management",
+      "Contracts Vault",
+      "Direct Advisory"
+    ]
+  },
+  {
+    "id": "tool-saas-1",
+    "name": "Digital Scrolling Bar 360 Pro",
+    "developer": "ConsultWays Studio",
+    "platform": "Windows / macOS",
+    "category": "Desktop Productivity",
+    "rating": "4.9",
+    "reviews_count": "420+",
+    "web_url": "https://hub.consultways.com/dashboard",
+    "icon": "/assets/icons/scrollingbar.svg",
+    "badge": "Desktop Ticker",
+    "description": "High-performance multi-monitor desktop ticker for real-time stock quotes, crypto, and RSS news feeds with <1% CPU usage.",
+    "features": [
+      "Multi-Monitor Pinning",
+      "Custom Speed & Font",
+      "Live Crypto & Stocks",
+      "<1% CPU Footprint"
+    ]
+  },
+  {
+    "id": "tool-saas-2",
+    "name": "B2B Quote & Bulk Discounts",
+    "developer": "ConsultWays Ecommerce",
+    "platform": "Shopify App Store",
+    "category": "E-Commerce / Shopify",
+    "rating": "4.8",
+    "reviews_count": "290+",
+    "web_url": "https://apps.shopify.com",
+    "icon": "/assets/icons/b2bquote.svg",
+    "badge": "Shopify App",
+    "description": "Wholesale custom quote buttons, tiered volume pricing tables, and customer-tag discount matrices for Shopify merchants.",
+    "features": [
+      "1-Click Quote Request",
+      "Tiered Quantity Breaks",
+      "Wholesale Logins",
+      "Custom PDF Quotes"
+    ]
+  },
+  {
+    "id": "tool-saas-3",
+    "name": "AI Meeting Notetaker",
+    "developer": "ConsultWays AI Labs",
+    "platform": "Chrome Web Store",
+    "category": "Browser Extension",
+    "rating": "4.7",
+    "reviews_count": "610+",
+    "web_url": "https://chromewebstore.google.com",
+    "icon": "/assets/icons/notetaker.svg",
+    "badge": "Chrome Extension",
+    "description": "Real-time Google Meet and Zoom audio transcription with automated action items and bulleted summaries.",
+    "features": [
+      "Real-Time Captions",
+      "Action Items Extraction",
+      "Google Docs Sync",
+      "No Invasive Bot"
+    ]
+  }
+]

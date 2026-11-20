@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="tsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a044e" />
+      <stop offset="50%" stop-color="#090d16" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#tsBg)" />
+  <!-- Neon Synthwave Sun & Grid -->
+  <circle cx="256" cy="220" r="90" fill="#f43f5e" opacity="0.9" />
+  <!-- Cyber Bike Silhouette -->
+  <path d="M 120 360 L 392 360" stroke="#00f0ff" stroke-width="8" />
+  <circle cx="170" cy="330" r="45" stroke="#00f0ff" stroke-width="12" />
+  <circle cx="342" cy="330" r="45" stroke="#ec4899" stroke-width="12" />
+  <polyline points="170,330 240,270 290,270 342,330" stroke="#facc15" stroke-width="12" stroke-linecap="round" />
+  <line x1="240" y1="270" x2="225" y2="230" stroke="#facc15" stroke-width="10" stroke-linecap="round" />
+</svg>

@@ -584,44 +584,50 @@ function openAppDetailModal(appId) {
   if (!app) return;
 
   const content = document.getElementById('cwModalContent');
-  const storeLink = app.play_store_url || app.web_url || '#';
+  // Exact Play Store link (e.g. details?id=com.pocketdev.ai.appbuilder)
+  const storeLink = app.play_store_url || (app.package_name ? 'https://play.google.com/store/apps/details?id=' + app.package_name : app.web_url || '#');
 
   content.innerHTML = `
     <div class="flex flex-col md:flex-row gap-6">
-      <img src="${app.icon}" alt="${escapeHtml(app.name)}" class="w-32 h-32 md:w-40 md:h-40 rounded-3xl object-cover shadow-md mx-auto md:mx-0">
+      <img src="${app.icon}" alt="${escapeHtml(app.name)}" class="w-32 h-32 md:w-36 md:h-36 rounded-3xl object-cover shadow-2xl mx-auto md:mx-0 border-2 border-slate-700 bg-slate-800" onerror="this.src='/assets/icons/pocketdev-ai.svg'">
       <div class="flex-1">
-        <div class="flex items-center gap-2 mb-1">
-          <span class="px-2.5 py-0.5 text-xs font-bold rounded-full bg-blue-100 text-blue-800">${escapeHtml(app.category)}</span>
-          <span class="badge-playstore px-2.5 py-0.5 text-xs font-bold rounded-full">${escapeHtml(app.badge || 'Official App')}</span>
+        <div class="flex items-center gap-2 mb-2">
+          <span class="px-2.5 py-0.5 text-xs font-bold rounded-full bg-cyan-950 text-cyan-300 border border-cyan-500/30">${escapeHtml(app.category)}</span>
+          <span class="px-2.5 py-0.5 text-xs font-bold rounded-full bg-emerald-950 text-emerald-400 border border-emerald-500/30 flex items-center gap-1">
+            <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+            Play Protect Verified
+          </span>
         </div>
-        <h2 class="text-2xl font-black text-slate-900 mb-1">${escapeHtml(app.name)}</h2>
-        <p class="text-xs text-slate-500 font-medium mb-3">Developer: ${escapeHtml(app.developer)}</p>
-        <div class="flex items-center gap-4 text-sm mb-4">
-          <span class="text-amber-500 font-bold">★ ${app.rating}</span>
-          <span class="text-slate-400">(${app.reviews_count} reviews)</span>
-          <span class="text-slate-300">•</span>
-          <span class="text-slate-600 font-medium">${app.installs || '50,000+'} Installs</span>
-        </div>
-        <p class="text-slate-600 text-sm leading-relaxed mb-6">${escapeHtml(app.description)}</p>
+        <h2 class="text-2xl sm:text-3xl font-black text-white mb-1">${escapeHtml(app.name)}</h2>
+        <p class="text-xs text-slate-400 font-medium mb-3">Publisher: <strong class="text-cyan-400">ConsultWays</strong></p>
         
-        <div class="mb-6">
-          <h4 class="text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Core Features</h4>
+        <div class="flex items-center gap-4 text-xs mb-4">
+          <span class="text-amber-400 font-bold flex items-center gap-0.5 text-sm">★ ${app.rating}</span>
+          <span class="text-slate-400">(${app.reviews_count} reviews)</span>
+          <span class="text-slate-600">•</span>
+          <span class="text-slate-300 font-bold">${app.installs || '50K+'} Downloads</span>
+        </div>
+        
+        <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-6">${escapeHtml(app.description)}</p>
+        
+        <div class="mb-6 bg-slate-800/60 p-4 rounded-2xl border border-slate-700">
+          <h4 class="text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">Core Features</h4>
           <div class="grid grid-cols-2 gap-2">
             ${(app.features || []).map(f => `
-              <div class="flex items-center gap-1.5 text-xs text-slate-600">
-                <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <div class="flex items-center gap-1.5 text-xs text-slate-300">
+                <svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
                 ${escapeHtml(f)}
               </div>
             `).join('')}
           </div>
         </div>
 
-        <div class="flex items-center gap-3">
-          <a href="${storeLink}" target="_blank" rel="noopener noreferrer" class="px-6 py-3 bg-slate-900 hover:bg-blue-600 text-white font-bold text-sm rounded-xl flex items-center gap-2 shadow-lg transition-colors">
+        <div class="flex items-center gap-3 flex-wrap">
+          <a href="${storeLink}" target="_blank" rel="noopener noreferrer" onclick="playHapticClick()" class="px-6 py-3 bg-[#01875f] hover:bg-[#017250] text-white font-extrabold text-sm rounded-xl flex items-center gap-2 shadow-xl shadow-emerald-950/40 transition-all hover:scale-105">
             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M3.609 1.814L13.792 12 3.61 22.186a2.38 2.38 0 01-.61-1.614V3.428c0-.627.228-1.206.61-1.614zm11.602 11.602l2.36 2.36-11.492 6.64 9.132-9zm2.36-2.36l-2.36 2.36-9.132-9 11.492 6.64zm1.442 1.442l3.412 1.972a1.763 1.763 0 010 3.06l-3.412 1.972-2.36-2.36 2.36-2.644z"/></svg>
-            Open in Official Store
+            <span>Install on Google Play</span>
           </a>
-          <a href="${app.privacy_policy_url || 'https://consultways.com/privacy-policy/'}" target="_blank" rel="noopener" class="px-4 py-3 border border-slate-200 text-slate-600 hover:bg-slate-100 text-sm font-semibold rounded-xl">
+          <a href="${app.privacy_policy_url || 'https://consultways.com/privacy-policy/'}" target="_blank" rel="noopener" class="px-4 py-3 border border-slate-700 text-slate-300 hover:bg-slate-800 text-xs font-semibold rounded-xl transition-colors">
             Privacy Policy
           </a>
         </div>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="fashBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#831843" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#fashBg)" />
+  <!-- Elegant Diamond / Crown -->
+  <polygon points="256,120 370,210 320,380 192,380 142,210" stroke="#f472b6" stroke-width="14" fill="none" />
+  <circle cx="256" cy="256" r="30" fill="#fb7185" />
+</svg>
