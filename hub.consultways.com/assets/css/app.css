@@ -1,0 +1,182 @@
+/* ConsultWays Hub - Custom Visual Polish, Glassmorphism & Alibaba/Temu Elements */
+
+:root {
+  --cw-primary: #2563eb;
+  --cw-primary-dark: #1d4ed8;
+  --cw-accent: #f97316;
+  --cw-accent-hover: #ea580c;
+  --cw-bg-dark: #0f172a;
+  --cw-card-dark: #1e293b;
+  --cw-border-dark: #334155;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #0f172a;
+  background-color: #f8fafc;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Glassmorphism Classes */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.glass-panel-dark {
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(51, 65, 85, 0.7);
+  color: #f8fafc;
+}
+
+/* Temu / Alibaba Viral Urgency Badges */
+.badge-temu {
+  background: linear-gradient(135deg, #ff4e00 0%, #ff0055 100%);
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  box-shadow: 0 4px 14px rgba(255, 0, 85, 0.35);
+  animation: pulseBadge 2.5s infinite;
+}
+
+.badge-verified {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+}
+
+.badge-playstore {
+  background: linear-gradient(135deg, #0284c7 0%, #2563eb 100%);
+  color: #fff;
+}
+
+@keyframes pulseBadge {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.03); }
+}
+
+/* Gradient Hero Background */
+.hero-gradient {
+  background: radial-gradient(circle at 15% 50%, rgba(37, 99, 235, 0.12) 0%, transparent 45%),
+              radial-gradient(circle at 85% 30%, rgba(249, 115, 22, 0.1) 0%, transparent 50%),
+              #ffffff;
+}
+
+/* Card Hover Zoom */
+.hover-lift {
+  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 32px -8px rgba(15, 23, 42, 0.12);
+}
+
+/* Star Rating Stars */
+.star-filled {
+  color: #f59e0b;
+}
+.star-empty {
+  color: #cbd5e1;
+}
+
+/* Viral Share Pill Buttons */
+.share-btn-wa {
+  background-color: #25d366;
+  color: #ffffff;
+}
+.share-btn-wa:hover {
+  background-color: #20ba5a;
+}
+
+.share-btn-fb {
+  background-color: #1877f2;
+  color: #ffffff;
+}
+.share-btn-x {
+  background-color: #000000;
+  color: #ffffff;
+}
+.share-btn-link {
+  background-color: #475569;
+  color: #ffffff;
+}
+
+/* AdSense Slot Wrapper */
+.adsense-wrapper {
+  margin: 1.5rem auto;
+  text-align: center;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0.75rem;
+  background: #f1f5f9;
+  border: 1px dashed #cbd5e1;
+  border-radius: 8px;
+}
+.adsense-label {
+  font-size: 0.7rem;
+  color: #94a3b8;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
+}
+
+/* WebP Compression Drag & Drop Area */
+.dropzone-box {
+  border: 2px dashed #94a3b8;
+  border-radius: 12px;
+  background-color: #f8fafc;
+  transition: all 0.2s ease;
+}
+.dropzone-box.dragover {
+  border-color: #2563eb;
+  background-color: #eff6ff;
+}
+
+/* Step Progress in Orders */
+.step-dot.active {
+  background-color: #2563eb;
+  border-color: #bfdbfe;
+  color: #fff;
+}
+.step-dot.completed {
+  background-color: #10b981;
+  border-color: #a7f3d0;
+  color: #fff;
+}
+.step-line.completed {
+  background-color: #10b981;
+}
+
+/* Modal Animation */
+.modal-overlay {
+  background: rgba(15, 23, 42, 0.65);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+.modal-enter {
+  animation: modalScaleUp 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+@keyframes modalScaleUp {
+  from { opacity: 0; transform: scale(0.95) translateY(10px); }
+  to { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

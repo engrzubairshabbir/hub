@@ -1,0 +1,128 @@
+[
+  {
+    "order_id": "CW-ORD-98214",
+    "date": "2026-11-18",
+    "customer_name": "Sarah Jenkins",
+    "customer_email": "sarah.j@example.com",
+    "items": [
+      {
+        "id": "cw-prod-3735",
+        "title": "Combined Switch Socket Universal 20A",
+        "price": 24.99,
+        "quantity": 2,
+        "type": "Physical Products"
+      }
+    ],
+    "total": 49.98,
+    "status": "In Transit",
+    "carrier": "DHL Express Global",
+    "tracking_number": "DHL-CW-992831002",
+    "estimated_delivery": "2026-11-23",
+    "steps": [
+      {
+        "label": "Order Placed",
+        "date": "2026-11-18 10:30 AM",
+        "completed": true
+      },
+      {
+        "label": "Quality Verified & Packed",
+        "date": "2026-11-19 02:15 PM",
+        "completed": true
+      },
+      {
+        "label": "Dispatched from Global Hub",
+        "date": "2026-11-20 08:45 AM",
+        "completed": true
+      },
+      {
+        "label": "Out for Local Delivery",
+        "date": "Pending",
+        "completed": false
+      },
+      {
+        "label": "Delivered",
+        "date": "Pending",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "order_id": "CW-ORD-97550",
+    "date": "2026-11-15",
+    "customer_name": "Tariq Mahmood",
+    "customer_email": "tariq.m@example.com",
+    "items": [
+      {
+        "id": "cw-prod-3730",
+        "title": "Tayyab SEO Store — Complete Technical Audit & Backlinks",
+        "price": 149,
+        "quantity": 1,
+        "type": "Freelance & Business Services"
+      }
+    ],
+    "total": 149,
+    "status": "Delivered",
+    "tracking_number": "CW-SRV-7712",
+    "delivered_date": "2026-11-17",
+    "steps": [
+      {
+        "label": "Order Placed",
+        "date": "2026-11-15 11:00 AM",
+        "completed": true
+      },
+      {
+        "label": "Consultant Assigned",
+        "date": "2026-11-15 01:00 PM",
+        "completed": true
+      },
+      {
+        "label": "Deliverables Completed",
+        "date": "2026-11-17 04:30 PM",
+        "completed": true
+      },
+      {
+        "label": "Client Approved & Closed",
+        "date": "2026-11-17 06:00 PM",
+        "completed": true
+      }
+    ]
+  },
+  {
+    "order_id": "CW-ORD-96102",
+    "date": "2026-11-12",
+    "customer_name": "Alexander Mueller",
+    "customer_email": "alex.m@digitalhub.io",
+    "items": [
+      {
+        "id": "tool-saas-1",
+        "title": "Digital Scrolling Bar 360 Pro / Flash Pro — Multi-Monitor License",
+        "price": 39,
+        "quantity": 1,
+        "type": "Digital Downloads",
+        "download_url": "https://hub.consultways.com/api/download.php?token=vault_demo_license_360pro",
+        "license_key": "CW-DSB360-PRO-9844-2026-ACTIVE"
+      }
+    ],
+    "total": 39,
+    "status": "Delivered",
+    "tracking_number": "INSTANT-DIGITAL-KEY",
+    "delivered_date": "2026-11-12",
+    "steps": [
+      {
+        "label": "Payment Verified",
+        "date": "2026-11-12 09:12 AM",
+        "completed": true
+      },
+      {
+        "label": "License Key Generated",
+        "date": "2026-11-12 09:12 AM",
+        "completed": true
+      },
+      {
+        "label": "Vault Download Unlocked",
+        "date": "2026-11-12 09:13 AM",
+        "completed": true
+      }
+    ]
+  }
+]

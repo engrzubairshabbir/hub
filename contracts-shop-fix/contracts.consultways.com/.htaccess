@@ -1,0 +1,27 @@
+# ==========================================
+# cPanel Passenger & Rewrite Config for contracts.consultways.com
+# ==========================================
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Serve existing static files directly from dist or root without waking Node.js
+  RewriteCond %{DOCUMENT_ROOT}/dist%{REQUEST_URI} -f
+  RewriteRule ^(.*)$ /dist/$1 [L]
+
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Fallback to Node.js Passenger or dist/index.html
+  RewriteRule ^(.*)$ /dist/index.html [L]
+</IfModule>
+
+# MIME Types Enforcement
+<IfModule mod_mime.c>
+  AddType text/css .css
+  AddType application/javascript .js
+  AddType application/json .json
+  AddType image/svg+xml .svg
+</IfModule>

@@ -1,0 +1,27 @@
+# ==========================================
+# cPanel Rewrite & Reverse Proxy for shop.consultways.com
+# ==========================================
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Serve Next.js static assets directly from disk
+  RewriteCond %{DOCUMENT_ROOT}/.next/static%{REQUEST_URI} -f
+  RewriteRule ^_next/static/(.*)$ /.next/static/$1 [L]
+
+  # Direct file match
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Proxy pass to internal Next.js port or passenger
+  RewriteRule ^(.*)$ http://127.0.0.1:3000/$1 [P,L]
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType image/webp "access plus 1 month"
+</IfModule>

@@ -1,0 +1,15 @@
+[
+  {
+    "queue_id": "MOD-Q-104",
+    "title": "Vintage Mechanical Wristwatch with Brown Leather Strap",
+    "type": "Physical Products",
+    "price": 45,
+    "seller_name": "VintageTimePieces",
+    "seller_email": "seller@vintagetime.com",
+    "submitted_at": "2026-11-20 18:20",
+    "ai_status": "flagged_for_review",
+    "ai_score": 82,
+    "ai_feedback": "Mentions vintage brand name without official trademark authorization certificate. Requires 1-click admin approval.",
+    "image_url": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=400&auto=format&fit=crop&q=80"
+  }
+]
