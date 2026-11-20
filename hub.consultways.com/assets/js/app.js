@@ -29,6 +29,8 @@ function initApp() {
   setupPostListingOptimizer();
   setupDashboardTabs();
   setupModalHandlers();
+  init3DTiltCards();
+  updateSoundButtonUI();
 }
 
 /* -------------------------------------------------------------
@@ -705,4 +707,114 @@ function escapeHtml(str) {
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#039;');
+}
+
+
+/* -------------------------------------------------------------
+ * 6. WEB AUDIO API HAPTIC SYNTHESIZER & 3D CARD TILT
+ * ------------------------------------------------------------- */
+let audioCtx = null;
+let soundEnabled = localStorage.getItem('cw_sound_enabled') !== 'false';
+
+function getAudioContext() {
+  if (!audioCtx) {
+    const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+    if (AudioContextClass) audioCtx = new AudioContextClass();
+  }
+  if (audioCtx && audioCtx.state === 'suspended') {
+    audioCtx.resume();
+  }
+  return audioCtx;
+}
+
+function playHapticHover() {
+  if (!soundEnabled) return;
+  try {
+    const ctx = getAudioContext();
+    if (!ctx) return;
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+    osc.type = 'sine';
+    const now = ctx.currentTime;
+    osc.frequency.setValueAtTime(800, now);
+    osc.frequency.exponentialRampToValueAtTime(1200, now + 0.03);
+    gain.gain.setValueAtTime(0.04, now);
+    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.035);
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+    osc.start(now);
+    osc.stop(now + 0.04);
+  } catch(e) {}
+}
+
+function playHapticClick() {
+  if (!soundEnabled) return;
+  try {
+    const ctx = getAudioContext();
+    if (!ctx) return;
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+    osc.type = 'triangle';
+    const now = ctx.currentTime;
+    osc.frequency.setValueAtTime(520, now);
+    osc.frequency.exponentialRampToValueAtTime(880, now + 0.06);
+    gain.gain.setValueAtTime(0.08, now);
+    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.08);
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+    osc.start(now);
+    osc.stop(now + 0.08);
+  } catch(e) {}
+}
+
+function toggleSound() {
+  soundEnabled = !soundEnabled;
+  localStorage.setItem('cw_sound_enabled', soundEnabled ? 'true' : 'false');
+  updateSoundButtonUI();
+  if (soundEnabled) playHapticClick();
+  showToast(soundEnabled ? '🔊 Futuristic Haptic Sound ON' : '🔇 Haptic Sound Muted', 'info');
+}
+
+function updateSoundButtonUI() {
+  const btn = document.getElementById('soundToggleFloatingBtn');
+  if (btn) {
+    btn.innerHTML = soundEnabled ? `
+      <svg class="w-4 h-4 text-emerald-400 animate-pulse" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M9.383 3.076A1 1 0 0110 4v12a1 1 0 01-1.707.707L4.586 13H2a1 1 0 01-1-1V8a1 1 0 011-1h2.586l3.707-3.707a1 1 0 011.09-.217zM14.657 2.929a1 1 0 011.414 0A9.972 9.972 0 0119 10a9.972 9.972 0 01-2.929 7.071 1 1 0 01-1.414-1.414A7.971 7.971 0 0017 10c0-2.21-.894-4.208-2.343-5.657a1 1 0 010-1.414zm-2.829 2.828a1 1 0 011.415 0A5.983 5.983 0 0115 10a5.984 5.984 0 01-1.757 4.243 1 1 0 01-1.415-1.415A3.984 3.984 0 0013 10a3.983 3.983 0 00-1.172-2.828 1 1 0 010-1.415z" clip-rule="evenodd"/></svg>
+      <span class="text-xs font-bold text-emerald-300">SFX ON</span>
+    ` : `
+      <svg class="w-4 h-4 text-slate-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M9.383 3.076A1 1 0 0110 4v12a1 1 0 01-1.707.707L4.586 13H2a1 1 0 01-1-1V8a1 1 0 011-1h2.586l3.707-3.707a1 1 0 011.09-.217zM12.293 7.293a1 1 0 011.414 0L15 8.586l1.293-1.293a1 1 0 111.414 1.414L16.414 10l1.293 1.293a1 1 0 01-1.414 1.414L15 11.414l-1.293 1.293a1 1 0 01-1.414-1.414L13.586 10l-1.293-1.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+      <span class="text-xs font-bold text-slate-400">SFX OFF</span>
+    `;
+  }
+}
+
+function init3DTiltCards() {
+  const cards = document.querySelectorAll('.app-haptic-card, .app-haptic-card-dark, .neon-border-box');
+  cards.forEach(card => {
+    card.addEventListener('mouseenter', () => {
+      playHapticHover();
+    });
+    card.addEventListener('mousemove', (e) => {
+      const rect = card.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const y = e.clientY - rect.top;
+      const centerX = rect.width / 2;
+      const centerY = rect.height / 2;
+      const rotateX = ((y - centerY) / centerY) * -6;
+      const rotateY = ((x - centerX) / centerX) * 6;
+      card.style.transform = `perspective(800px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(1.06, 1.06, 1.06)`;
+    });
+    card.addEventListener('mouseleave', () => {
+      card.style.transform = '';
+    });
+    card.addEventListener('click', () => {
+      playHapticClick();
+    });
+  });
+
+  document.querySelectorAll('a, button').forEach(el => {
+    el.addEventListener('mouseenter', () => {
+      if (el.matches(':hover')) playHapticHover();
+    });
+  });
 }

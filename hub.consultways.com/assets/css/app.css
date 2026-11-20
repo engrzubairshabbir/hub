@@ -1,13 +1,16 @@
-/* ConsultWays Hub - Custom Visual Polish, Glassmorphism & Alibaba/Temu Elements */
+/* ConsultWays Hub - Custom Visual Polish, Cyber-Neon Lights & Haptic Interaction */
 
 :root {
   --cw-primary: #2563eb;
   --cw-primary-dark: #1d4ed8;
   --cw-accent: #f97316;
   --cw-accent-hover: #ea580c;
-  --cw-bg-dark: #0f172a;
-  --cw-card-dark: #1e293b;
-  --cw-border-dark: #334155;
+  --cw-bg-dark: #090d16;
+  --cw-card-dark: #111827;
+  --cw-neon-blue: #00f0ff;
+  --cw-neon-purple: #a855f7;
+  --cw-neon-green: #10b981;
+  --cw-neon-amber: #f59e0b;
 }
 
 body {
@@ -17,7 +20,141 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* Glassmorphism Classes */
+/* =========================================================
+   1. CYBER NEON LIGHTS & FLASHING GRADIENTS
+   ========================================================= */
+
+.neon-border-box {
+  position: relative;
+  border-radius: 24px;
+  background: #ffffff;
+  z-index: 1;
+}
+
+.neon-border-box::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: 26px;
+  background: conic-gradient(from 0deg, #3b82f6, #06b6d4, #10b981, #f59e0b, #ec4899, #8b5cf6, #3b82f6);
+  z-index: -1;
+  opacity: 0.45;
+  transition: opacity 0.3s ease, filter 0.3s ease;
+  animation: rotateNeonGlow 8s linear infinite;
+}
+
+.neon-border-box:hover::before {
+  opacity: 1;
+  filter: blur(8px);
+}
+
+@keyframes rotateNeonGlow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.cyber-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #10b981;
+  box-shadow: 0 0 12px #10b981, 0 0 24px #10b981;
+  animation: pulseCyberDot 1.5s infinite;
+}
+
+@keyframes pulseCyberDot {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.4); opacity: 0.5; }
+}
+
+.badge-live-neon {
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.9) 0%, rgba(139, 92, 246, 0.9) 100%);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 15px rgba(99, 102, 241, 0.4);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+/* =========================================================
+   2. CONTINUOUS MOVING / SLIDING MARQUEE SHOWCASE
+   ========================================================= */
+
+.marquee-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding: 24px 0;
+  mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+}
+
+.marquee-track {
+  display: flex;
+  gap: 24px;
+  width: max-content;
+  animation: marqueeScroll 45s linear infinite;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marqueeScroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* =========================================================
+   3. 3D CARD SCALE & HAPTIC HOVER EFFECT
+   ========================================================= */
+
+.app-haptic-card {
+  transition: transform 0.28s cubic-bezier(0.175, 0.885, 0.32, 1.275), 
+              box-shadow 0.28s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+              border-color 0.28s ease;
+  cursor: pointer;
+  transform-origin: center center;
+  will-change: transform;
+}
+
+.app-haptic-card:hover {
+  transform: scale(1.06) translateY(-8px);
+  box-shadow: 0 22px 40px -10px rgba(37, 99, 235, 0.25), 0 0 25px rgba(6, 182, 212, 0.2);
+  border-color: #3b82f6;
+  z-index: 10;
+}
+
+.app-haptic-card-dark {
+  background: rgba(17, 24, 39, 0.95);
+  border: 1px solid rgba(55, 65, 81, 0.8);
+  color: #fff;
+  transition: transform 0.28s cubic-bezier(0.175, 0.885, 0.32, 1.275), 
+              box-shadow 0.28s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.app-haptic-card-dark:hover {
+  transform: scale(1.07) translateY(-10px);
+  box-shadow: 0 25px 50px -12px rgba(0, 240, 255, 0.3), 0 0 30px rgba(168, 85, 247, 0.3);
+  border-color: #00f0ff;
+  z-index: 20;
+}
+
+.sound-toggle-btn {
+  background: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  transition: all 0.2s ease;
+}
+.sound-toggle-btn:hover {
+  background: rgba(37, 99, 235, 0.9);
+  box-shadow: 0 0 16px rgba(37, 99, 235, 0.6);
+}
+
+/* =========================================================
+   4. GLASSMORPHISM, BADGES & STANDARD COMPONENTS
+   ========================================================= */
+
 .glass-panel {
   background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(12px);
@@ -33,7 +170,6 @@ body {
   color: #f8fafc;
 }
 
-/* Temu / Alibaba Viral Urgency Badges */
 .badge-temu {
   background: linear-gradient(135deg, #ff4e00 0%, #ff0055 100%);
   color: #fff;
@@ -59,14 +195,12 @@ body {
   50% { transform: scale(1.03); }
 }
 
-/* Gradient Hero Background */
 .hero-gradient {
   background: radial-gradient(circle at 15% 50%, rgba(37, 99, 235, 0.12) 0%, transparent 45%),
               radial-gradient(circle at 85% 30%, rgba(249, 115, 22, 0.1) 0%, transparent 50%),
               #ffffff;
 }
 
-/* Card Hover Zoom */
 .hover-lift {
   transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.22s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -75,37 +209,12 @@ body {
   box-shadow: 0 16px 32px -8px rgba(15, 23, 42, 0.12);
 }
 
-/* Star Rating Stars */
-.star-filled {
-  color: #f59e0b;
-}
-.star-empty {
-  color: #cbd5e1;
-}
+.share-btn-wa { background-color: #25d366; color: #fff; }
+.share-btn-wa:hover { background-color: #20ba5a; }
+.share-btn-fb { background-color: #1877f2; color: #fff; }
+.share-btn-x { background-color: #000; color: #fff; }
+.share-btn-link { background-color: #475569; color: #fff; }
 
-/* Viral Share Pill Buttons */
-.share-btn-wa {
-  background-color: #25d366;
-  color: #ffffff;
-}
-.share-btn-wa:hover {
-  background-color: #20ba5a;
-}
-
-.share-btn-fb {
-  background-color: #1877f2;
-  color: #ffffff;
-}
-.share-btn-x {
-  background-color: #000000;
-  color: #ffffff;
-}
-.share-btn-link {
-  background-color: #475569;
-  color: #ffffff;
-}
-
-/* AdSense Slot Wrapper */
 .adsense-wrapper {
   margin: 1.5rem auto;
   text-align: center;
@@ -124,7 +233,6 @@ body {
   margin-bottom: 0.25rem;
 }
 
-/* WebP Compression Drag & Drop Area */
 .dropzone-box {
   border: 2px dashed #94a3b8;
   border-radius: 12px;
@@ -136,22 +244,6 @@ body {
   background-color: #eff6ff;
 }
 
-/* Step Progress in Orders */
-.step-dot.active {
-  background-color: #2563eb;
-  border-color: #bfdbfe;
-  color: #fff;
-}
-.step-dot.completed {
-  background-color: #10b981;
-  border-color: #a7f3d0;
-  color: #fff;
-}
-.step-line.completed {
-  background-color: #10b981;
-}
-
-/* Modal Animation */
 .modal-overlay {
   background: rgba(15, 23, 42, 0.65);
   backdrop-filter: blur(4px);
@@ -165,18 +257,7 @@ body {
   to { opacity: 1; transform: scale(1) translateY(0); }
 }
 
-/* Custom Scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-}
-::-webkit-scrollbar-track {
-  background: #f1f5f9;
-}
-::-webkit-scrollbar-thumb {
-  background: #cbd5e1;
-  border-radius: 4px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #94a3b8;
-}
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: #f1f5f9; }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
