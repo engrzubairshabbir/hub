@@ -1,321 +1,194 @@
-/* ConsultWays Hub - Custom Visual Polish, Cyber-Neon Lights & Haptic Interaction */
+/* =========================================================
+   FIDOTOWN TACTILE NEUMORPHIC THEME & AUDIO VISUALS
+   Engineered for ConsultWays Hub
+   ========================================================= */
 
 :root {
-  --cw-primary: #2563eb;
-  --cw-primary-dark: #1d4ed8;
-  --cw-accent: #f97316;
-  --cw-accent-hover: #ea580c;
-  --cw-bg-dark: #090d16;
-  --cw-card-dark: #111827;
-  --cw-neon-blue: #00f0ff;
-  --cw-neon-purple: #a855f7;
-  --cw-neon-green: #10b981;
-  --cw-neon-amber: #f59e0b;
+  --fido-bg: #f2f5f9;
+  --fido-card-bg: #ffffff;
+  --fido-orange: #ff6b35;
+  --fido-orange-hover: #ea580c;
+  --fido-teal: #00b4d8;
+  --fido-teal-hover: #0096c7;
+  --fido-dark: #0f172a;
+  --fido-slate: #334155;
+  --fido-muted: #64748b;
+  --fido-border: rgba(226, 232, 240, 0.8);
+  --fido-shadow-outset: 8px 8px 24px rgba(166, 180, 200, 0.38), -8px -8px 24px rgba(255, 255, 255, 0.95);
+  --fido-shadow-inset: inset 3px 3px 8px rgba(166, 180, 200, 0.3), inset -3px -3px 8px rgba(255, 255, 255, 0.9);
+  --fido-shadow-pill: 4px 4px 12px rgba(166, 180, 200, 0.35), -4px -4px 12px rgba(255, 255, 255, 0.95);
 }
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  color: #0f172a;
-  background-color: #f8fafc;
+  background-color: var(--fido-bg);
+  color: var(--fido-dark);
   -webkit-font-smoothing: antialiased;
 }
 
-/* =========================================================
-   1. CYBER NEON LIGHTS & FLASHING GRADIENTS
-   ========================================================= */
-
-/* Rainbow Rotating Conic Border */
-.neon-border-box {
+/* Tactile Soft Raised Card */
+.fido-card {
+  background: var(--fido-card-bg);
+  border-radius: 26px;
+  box-shadow: var(--fido-shadow-outset);
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.28s ease, border-color 0.28s ease;
   position: relative;
-  border-radius: 24px;
-  background: #ffffff;
-  z-index: 1;
 }
 
-.neon-border-box::before {
+.fido-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 12px 14px 32px rgba(166, 180, 200, 0.5), -10px -10px 28px rgba(255, 255, 255, 1);
+  border-color: rgba(255, 107, 53, 0.3);
+}
+
+/* Tactile Inset Well */
+.fido-inset {
+  background: #edf1f7;
+  border-radius: 18px;
+  box-shadow: var(--fido-shadow-inset);
+  border: 1px solid rgba(226, 232, 240, 0.6);
+}
+
+/* Tactile Circular Dial */
+.fido-dial {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 10px 10px 30px rgba(166, 180, 200, 0.45), -10px -10px 30px rgba(255, 255, 255, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.fido-dial::before {
   content: '';
   position: absolute;
-  inset: -2px;
-  border-radius: 26px;
-  background: conic-gradient(from 0deg, #3b82f6, #06b6d4, #10b981, #f59e0b, #ec4899, #8b5cf6, #3b82f6);
-  z-index: -1;
-  opacity: 0.45;
-  transition: opacity 0.3s ease, filter 0.3s ease;
-  animation: rotateNeonGlow 8s linear infinite;
-}
-
-.neon-border-box:hover::before {
-  opacity: 1;
-  filter: blur(8px);
-}
-
-@keyframes rotateNeonGlow {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-/* Flashing Cyber Dot */
-.cyber-dot {
-  width: 8px;
-  height: 8px;
+  inset: 10px;
   border-radius: 50%;
-  background-color: #10b981;
-  box-shadow: 0 0 12px #10b981, 0 0 24px #10b981;
-  animation: pulseCyberDot 1.5s infinite;
+  border: 3px dashed rgba(255, 107, 53, 0.35);
+  animation: fidoSpinDial 40s linear infinite;
 }
 
-@keyframes pulseCyberDot {
-  0%, 100% { transform: scale(1); opacity: 1; }
-  50% { transform: scale(1.4); opacity: 0.5; }
+@keyframes fidoSpinDial {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
-/* Live Badge Glow */
-.badge-live-neon {
-  background: linear-gradient(135deg, rgba(37, 99, 235, 0.9) 0%, rgba(139, 92, 246, 0.9) 100%);
-  color: #fff;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  box-shadow: 0 0 15px rgba(99, 102, 241, 0.4);
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+/* Tactile Buttons */
+.fido-btn-primary {
+  background: linear-gradient(135deg, #ff6b35 0%, #f97316 100%);
+  color: #ffffff !important;
+  font-weight: 700;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(255, 107, 53, 0.38), inset 0 1px 1px rgba(255, 255, 255, 0.4);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.fido-btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(255, 107, 53, 0.5), inset 0 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+.fido-btn-primary:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 8px rgba(255, 107, 53, 0.4);
+}
+
+.fido-btn-secondary {
+  background: #ffffff;
+  color: var(--fido-dark) !important;
+  font-weight: 700;
+  border-radius: 16px;
+  box-shadow: var(--fido-shadow-pill);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  transition: all 0.2s ease;
+}
+
+.fido-btn-secondary:hover {
+  background: #f8fafc;
+  color: var(--fido-orange) !important;
+  transform: translateY(-2px);
+  box-shadow: 6px 6px 18px rgba(166, 180, 200, 0.45), -6px -6px 18px rgba(255, 255, 255, 1);
+}
+
+/* Google Play Install Button */
+.fido-play-btn {
+  background: linear-gradient(135deg, #01875f 0%, #017250 100%);
+  color: #ffffff !important;
+  font-weight: 800;
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(1, 135, 95, 0.35);
+  transition: all 0.2s ease;
+}
+
+.fido-play-btn:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 20px rgba(1, 135, 95, 0.5);
 }
 
 /* =========================================================
-   2. CONTINUOUS MOVING / SLIDING MARQUEE SHOWCASE
+   DYNAMIC LIVE MOVING CARDS WITH SHIFTING BACKGROUNDS
    ========================================================= */
 
-.marquee-container {
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  padding: 24px 0;
-  mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
-  -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+@keyframes fidoMeshShift {
+  0% {
+    background: linear-gradient(135deg, #ffffff 0%, #fdf5f0 50%, #f0f9ff 100%);
+  }
+  33% {
+    background: linear-gradient(135deg, #f0f9ff 0%, #ffffff 50%, #fef3c7 100%);
+  }
+  66% {
+    background: linear-gradient(135deg, #fef3c7 0%, #fdf2f8 50%, #ffffff 100%);
+  }
+  100% {
+    background: linear-gradient(135deg, #ffffff 0%, #fdf5f0 50%, #f0f9ff 100%);
+  }
 }
 
-.marquee-track {
+.fido-moving-card {
+  width: 320px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  padding: 18px;
+  box-shadow: 6px 6px 20px rgba(166, 180, 200, 0.3), -6px -6px 20px rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  animation: fidoMeshShift 12s ease-in-out infinite;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  cursor: pointer;
+}
+
+.fido-moving-card:hover {
+  transform: translateY(-6px) scale(1.02);
+  border-color: var(--fido-orange);
+  box-shadow: 10px 14px 28px rgba(255, 107, 53, 0.25), -8px -8px 24px rgba(255, 255, 255, 1);
+}
+
+.fido-marquee-track {
   display: flex;
-  gap: 24px;
+  gap: 1.25rem;
   width: max-content;
-  animation: marqueeScroll 90s linear infinite;
+  animation: fidoScroll 85s linear infinite;
 }
 
-.marquee-track:hover {
+.fido-marquee-track:hover {
   animation-play-state: paused;
 }
 
-@keyframes marqueeScroll {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+@keyframes fidoScroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
 }
 
-/* =========================================================
-   3. 3D CARD SCALE & HAPTIC HOVER EFFECT
-   ========================================================= */
-
-.app-haptic-card {
-  transition: transform 0.28s cubic-bezier(0.175, 0.885, 0.32, 1.275), 
-              box-shadow 0.28s cubic-bezier(0.175, 0.885, 0.32, 1.275),
-              border-color 0.28s ease;
-  cursor: pointer;
-  transform-origin: center center;
-  will-change: transform;
-}
-
-.app-haptic-card:hover {
-  transform: scale(1.06) translateY(-8px);
-  box-shadow: 0 22px 40px -10px rgba(37, 99, 235, 0.25), 0 0 25px rgba(6, 182, 212, 0.2);
-  border-color: #3b82f6;
-  z-index: 10;
-}
-
-/* Dark mode version */
-.app-haptic-card-dark {
-  background: rgba(17, 24, 39, 0.95);
-  border: 1px solid rgba(55, 65, 81, 0.8);
-  color: #fff;
-  transition: transform 0.28s cubic-bezier(0.175, 0.885, 0.32, 1.275), 
-              box-shadow 0.28s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.app-haptic-card-dark:hover {
-  transform: scale(1.07) translateY(-10px);
-  box-shadow: 0 25px 50px -12px rgba(0, 240, 255, 0.3), 0 0 30px rgba(168, 85, 247, 0.3);
-  border-color: #00f0ff;
-  z-index: 20;
-}
-
-/* Sound Effect Floating Switch */
-.sound-toggle-btn {
-  background: rgba(15, 23, 42, 0.8);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  color: #fff;
-  transition: all 0.2s ease;
-}
-.sound-toggle-btn:hover {
-  background: rgba(37, 99, 235, 0.9);
-  box-shadow: 0 0 16px rgba(37, 99, 235, 0.6);
-}
-
-/* =========================================================
-   4. GLASSMORPHISM, BADGES & STANDARD COMPONENTS
-   ========================================================= */
-
-.glass-panel {
-  background: rgba(255, 255, 255, 0.85);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(226, 232, 240, 0.8);
-}
-
-.glass-panel-dark {
-  background: rgba(15, 23, 42, 0.85);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(51, 65, 85, 0.7);
-  color: #f8fafc;
-}
-
-.badge-temu {
-  background: linear-gradient(135deg, #ff4e00 0%, #ff0055 100%);
-  color: #fff;
-  font-weight: 700;
-  letter-spacing: 0.025em;
-  box-shadow: 0 4px 14px rgba(255, 0, 85, 0.35);
-  animation: pulseBadge 2.5s infinite;
-}
-
-.badge-verified {
-  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-  color: #fff;
-  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
-}
-
-.badge-playstore {
-  background: linear-gradient(135deg, #0284c7 0%, #2563eb 100%);
-  color: #fff;
-}
-
-@keyframes pulseBadge {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.03); }
-}
-
-.hero-gradient {
-  background: radial-gradient(circle at 15% 50%, rgba(37, 99, 235, 0.12) 0%, transparent 45%),
-              radial-gradient(circle at 85% 30%, rgba(249, 115, 22, 0.1) 0%, transparent 50%),
-              #ffffff;
-}
-
-.hover-lift {
-  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.22s cubic-bezier(0.16, 1, 0.3, 1);
-}
-.hover-lift:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 16px 32px -8px rgba(15, 23, 42, 0.12);
-}
-
-.share-btn-wa { background-color: #25d366; color: #fff; }
-.share-btn-wa:hover { background-color: #20ba5a; }
-.share-btn-fb { background-color: #1877f2; color: #fff; }
-.share-btn-x { background-color: #000; color: #fff; }
-.share-btn-link { background-color: #475569; color: #fff; }
-
-.adsense-wrapper {
-  margin: 1.5rem auto;
+/* AdSense Native Wrapper */
+.adsense-fido {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 16px;
+  box-shadow: var(--fido-shadow-outset);
+  border: 1px solid rgba(226, 232, 240, 0.6);
   text-align: center;
-  max-width: 100%;
-  overflow: hidden;
-  padding: 0.75rem;
-  background: #f1f5f9;
-  border: 1px dashed #cbd5e1;
-  border-radius: 8px;
-}
-.adsense-label {
-  font-size: 0.7rem;
-  color: #94a3b8;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  margin-bottom: 0.25rem;
-}
-
-.dropzone-box {
-  border: 2px dashed #94a3b8;
-  border-radius: 12px;
-  background-color: #f8fafc;
-  transition: all 0.2s ease;
-}
-.dropzone-box.dragover {
-  border-color: #2563eb;
-  background-color: #eff6ff;
-}
-
-.modal-overlay {
-  background: rgba(15, 23, 42, 0.65);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-}
-.modal-enter {
-  animation: modalScaleUp 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-}
-@keyframes modalScaleUp {
-  from { opacity: 0; transform: scale(0.95) translateY(10px); }
-  to { opacity: 1; transform: scale(1) translateY(0); }
-}
-
-::-webkit-scrollbar { width: 8px; height: 8px; }
-::-webkit-scrollbar-track { background: #f1f5f9; }
-::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
-::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
-
-
-/* =========================================================
-   DARK CYBER THEME & SOLID CARDS FOR APPS PAGE
-   ========================================================= */
-body.cw-dark-page {
-  background-color: #0b0f19 !important;
-  color: #f8fafc !important;
-}
-
-.cw-app-card {
-  background-color: #111827 !important;
-  border: 1px solid #1f2937 !important;
-  border-radius: 1.5rem !important;
-  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5) !important;
-  color: #ffffff !important;
-  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease, border-color 0.3s ease !important;
-  position: relative;
-  overflow: hidden;
-}
-
-.cw-app-card:hover {
-  transform: translateY(-6px) scale(1.01) !important;
-  border-color: #06b6d4 !important;
-  box-shadow: 0 20px 35px -8px rgba(6, 182, 212, 0.3) !important;
-}
-
-.cw-marquee-card {
-  background-color: #111827 !important;
-  border: 1px solid #1f2937 !important;
-  color: #ffffff !important;
-  transition: all 0.25s ease !important;
-}
-
-.cw-marquee-card:hover {
-  border-color: #38bdf8 !important;
-  background-color: #1e293b !important;
-  transform: scale(1.05) !important;
-  box-shadow: 0 15px 30px rgba(56, 189, 248, 0.35) !important;
-}
-
-.cw-play-btn {
-  background-color: #01875f !important;
-  color: #ffffff !important;
-  font-weight: 700 !important;
-  transition: all 0.2s ease !important;
-}
-
-.cw-play-btn:hover {
-  background-color: #017250 !important;
-  transform: scale(1.03) !important;
-  box-shadow: 0 6px 20px rgba(1, 135, 95, 0.45) !important;
 }

@@ -1,256 +1,13 @@
 [
   {
-    "id": "com-pocketdev-ai-appbuilder",
-    "package_name": "com.pocketdev.ai.appbuilder",
-    "name": "PocketDev AI",
-    "developer": "ConsultWays",
-    "category": "Developer Tools",
-    "rating": "4.8",
-    "reviews_count": "1.2k+",
-    "installs": "25,000+",
-    "play_store_url": "https://play.google.com/store/apps/details?id=com.pocketdev.ai.appbuilder&hl=en",
-    "privacy_policy_url": "https://consultways.com/privacy-policy/",
-    "icon": "https://play-lh.googleusercontent.com/Rb2tKaSDPapaa8I_DhamUbW1buTnsYYZHsZtdoWFgEg6LtUwc9ZEHfoEJXj3tDkMdKcxxjb2SBhkG7SvoE_2=s256-rw",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/Rb2tKaSDPapaa8I_DhamUbW1buTnsYYZHsZtdoWFgEg6LtUwc9ZEHfoEJXj3tDkMdKcxxjb2SBhkG7SvoE_2=w720-h1280-rw",
-      "https://play-lh.googleusercontent.com/Rb2tKaSDPapaa8I_DhamUbW1buTnsYYZHsZtdoWFgEg6LtUwc9ZEHfoEJXj3tDkMdKcxxjb2SBhkG7SvoE_2=w720-h1280-rw",
-      "https://play-lh.googleusercontent.com/10jTA14DXmtwiLPGybJfznaZXlDY9p_GoO1qWnYqT8XwGrF-OafhfkR1CBxbnp9PX6Kv6gPDnfeen1j46Jp6=w720-h1280-rw",
-      "https://play-lh.googleusercontent.com/10jTA14DXmtwiLPGybJfznaZXlDY9p_GoO1qWnYqT8XwGrF-OafhfkR1CBxbnp9PX6Kv6gPDnfeen1j46Jp6=w720-h1280-rw"
-    ],
-    "badge": "4.8★ Play Verified",
-    "description": "Build, debug, and run code with your pocket AI developer. Instant regex generation, SQL queries, multi-language code fixing, and full stack API payload testing on mobile.",
-    "features": [
-      "AI Code Assistant & Debugger",
-      "Regex & SQL Query Generator",
-      "Full-Stack Payload Tester",
-      "Offline Developer Cheat Sheets"
-    ]
-  },
-  {
-    "id": "com-airaid-mariab",
-    "package_name": "com.airaid.mariab",
-    "name": "Maria.B. Clothes Online Shoppi",
-    "developer": "ConsultWays",
-    "category": "Shopping / Fashion",
-    "rating": "4.8",
-    "reviews_count": "1.2k+",
-    "installs": "25,000+",
-    "play_store_url": "https://play.google.com/store/apps/details?id=com.airaid.mariab&hl=en",
-    "privacy_policy_url": "https://consultways.com/privacy-policy/",
-    "icon": "https://play-lh.googleusercontent.com/xQiRFBF0rILGI3D1Kny_X1bMIyVxh6mJ9RKBoonZ6XOFPVbrT6tZwFxEAu1QkisYp4ecwz6LfkFmq3PPSmr-1w=s256-rw",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/xQiRFBF0rILGI3D1Kny_X1bMIyVxh6mJ9RKBoonZ6XOFPVbrT6tZwFxEAu1QkisYp4ecwz6LfkFmq3PPSmr-1w=w720-h1280-rw",
-      "https://play-lh.googleusercontent.com/xQiRFBF0rILGI3D1Kny_X1bMIyVxh6mJ9RKBoonZ6XOFPVbrT6tZwFxEAu1QkisYp4ecwz6LfkFmq3PPSmr-1w=w720-h1280-rw",
-      "https://play-lh.googleusercontent.com/VF-_2FL2Cyd0GQV5lwWD1WBvEJjoW9JgsUS1fyB63rQwWonvc2Mwrj6iH5QWx9TpmNV7SHElStdqE7CWsFBl=w720-h1280-rw",
-      "https://play-lh.googleusercontent.com/VF-_2FL2Cyd0GQV5lwWD1WBvEJjoW9JgsUS1fyB63rQwWonvc2Mwrj6iH5QWx9TpmNV7SHElStdqE7CWsFBl=w720-h1280-rw"
-    ],
-    "badge": "4.8★ Play Verified",
-    "description": "Explore luxury unstitched lawn, luxury pret, couture bridal wear, and high fashion ready-to-wear collections with instant stock alerts, lookbooks, and size guides.",
-    "features": [
-      "Official Haute Couture Collections",
-      "High-Res Lookbook & Zoom",
-      "Instant Stock & Price Alerts",
-      "Fast Checkout & Tracking"
-    ]
-  },
-  {
-    "id": "com-airaid-hudabeauty",
-    "package_name": "com.airaid.hudabeauty",
-    "name": "Huda Beauty &amp; Skin Care Store",
-    "developer": "ConsultWays",
-    "category": "Shopping / Cosmetics",
-    "rating": "4.8",
-    "reviews_count": "1.2k+",
-    "installs": "25,000+",
-    "play_store_url": "https://play.google.com/store/apps/details?id=com.airaid.hudabeauty&hl=en",
-    "privacy_policy_url": "https://consultways.com/privacy-policy/",
-    "icon": "https://play-lh.googleusercontent.com/ywy7EHnmphulqUeeNhlTI4Ha_kiEMpuZAMVc_Q1BjF_mcodB4-riJHMLIgyijF8rk5R5D1jcEeLUMWZ_RA_f=s256-rw",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/ywy7EHnmphulqUeeNhlTI4Ha_kiEMpuZAMVc_Q1BjF_mcodB4-riJHMLIgyijF8rk5R5D1jcEeLUMWZ_RA_f=w720-h1280-rw",
-      "https://play-lh.googleusercontent.com/ywy7EHnmphulqUeeNhlTI4Ha_kiEMpuZAMVc_Q1BjF_mcodB4-riJHMLIgyijF8rk5R5D1jcEeLUMWZ_RA_f=w720-h1280-rw",
-      "https://play-lh.googleusercontent.com/UhyMYc6Me2HyG69mhYmoiiGZg62KaVYfSKGxWGDxmyK8aDe2V7efOjbTqHOP-qtMjoOE6FLkGhxM6L20CS7y0A=w720-h1280-rw",
-      "https://play-lh.googleusercontent.com/UhyMYc6Me2HyG69mhYmoiiGZg62KaVYfSKGxWGDxmyK8aDe2V7efOjbTqHOP-qtMjoOE6FLkGhxM6L20CS7y0A=w720-h1280-rw"
-    ],
-    "badge": "4.8★ Play Verified",
-    "description": "Discover top skincare routines, lip shades, eyeshadow palettes, and authentic cosmetic batch checkers. Get personalized beauty recommendations and makeup guides.",
-    "features": [
-      "Curated Skincare Routines",
-      "Shade Finder & Tone Matcher",
-      "Authentic Batch Code Verification",
-      "Exclusive Beauty Deals"
-    ]
-  },
-  {
-    "id": "com-alarmreminderpro-ai-voice-location",
-    "package_name": "com.alarmreminderpro.ai.voice.location",
-    "name": "AlarmReminder Pro: AI Alarm",
-    "developer": "ConsultWays",
-    "category": "Lifestyle / Productivity",
-    "rating": "4.8",
-    "reviews_count": "1.2k+",
-    "installs": "25,000+",
-    "play_store_url": "https://play.google.com/store/apps/details?id=com.alarmreminderpro.ai.voice.location&hl=en",
-    "privacy_policy_url": "https://consultways.com/privacy-policy/",
-    "icon": "https://play-lh.googleusercontent.com/CaKbmwW2EpdZDy1I1XvcfJe-aqPyKx6EUi7TPOwq3u08sJ3KkeCPTP3fzpW3m187D-jI61oeyLY4E7HpMoPaa8c=s256-rw",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/CaKbmwW2EpdZDy1I1XvcfJe-aqPyKx6EUi7TPOwq3u08sJ3KkeCPTP3fzpW3m187D-jI61oeyLY4E7HpMoPaa8c=w720-h1280-rw",
-      "https://play-lh.googleusercontent.com/CaKbmwW2EpdZDy1I1XvcfJe-aqPyKx6EUi7TPOwq3u08sJ3KkeCPTP3fzpW3m187D-jI61oeyLY4E7HpMoPaa8c=w720-h1280-rw",
-      "https://play-lh.googleusercontent.com/xyhFG1qTvooW97BVI3_BNukuF4LHzxYbS3hq-eZYBAYNgfStvL3wkfFw_G4dPf8Ws-W8nCqNXXrYDtK3au1V=w720-h1280-rw",
-      "https://play-lh.googleusercontent.com/xyhFG1qTvooW97BVI3_BNukuF4LHzxYbS3hq-eZYBAYNgfStvL3wkfFw_G4dPf8Ws-W8nCqNXXrYDtK3au1V=w720-h1280-rw"
-    ],
-    "badge": "4.8★ Play Verified",
-    "description": "Smart smart alarm clock with AI voice briefing, location-based reminders, math missions, and gentle morning wake-up soundscapes.",
-    "features": [
-      "AI Voice Morning Briefings",
-      "Location-Based Smart Reminders",
-      "Math & Shake Wakeup Missions",
-      "Gradual Volume Ramp-Up"
-    ]
-  },
-  {
-    "id": "com-consultways-sanasafinaz",
-    "package_name": "com.consultways.sanasafinaz",
-    "name": "Sana&amp;Safinas Style Shop 2024",
-    "developer": "ConsultWays",
-    "category": "Shopping / Fashion",
-    "rating": "4.8",
-    "reviews_count": "1.2k+",
-    "installs": "25,000+",
-    "play_store_url": "https://play.google.com/store/apps/details?id=com.consultways.sanasafinaz&hl=en",
-    "privacy_policy_url": "https://consultways.com/privacy-policy/",
-    "icon": "https://play-lh.googleusercontent.com/uNLI0y1ujx1KmVCubU6tj7CvH5pBAqlt1fZBoTS6Sq8eao5UEdx-yZXPfX10nr6ZAc7zfHiOLybcvCIwUfzd5Q=s256-rw",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/uNLI0y1ujx1KmVCubU6tj7CvH5pBAqlt1fZBoTS6Sq8eao5UEdx-yZXPfX10nr6ZAc7zfHiOLybcvCIwUfzd5Q=w720-h1280-rw",
-      "https://play-lh.googleusercontent.com/uNLI0y1ujx1KmVCubU6tj7CvH5pBAqlt1fZBoTS6Sq8eao5UEdx-yZXPfX10nr6ZAc7zfHiOLybcvCIwUfzd5Q=w720-h1280-rw",
-      "https://play-lh.googleusercontent.com/HanBbQqReIU3OE4tb44pPp1-5aID_b4jnU3qMy7Qw3oY-DdJhjmKK1xLnYQ5oDesF2ZlhPIXTKeQy4oC9qvr=w720-h1280-rw",
-      "https://play-lh.googleusercontent.com/HanBbQqReIU3OE4tb44pPp1-5aID_b4jnU3qMy7Qw3oY-DdJhjmKK1xLnYQ5oDesF2ZlhPIXTKeQy4oC9qvr=w720-h1280-rw"
-    ],
-    "badge": "4.8★ Play Verified",
-    "description": "Browse the latest Sana Safinaz luxury collections, embroidered chiffon, silk pret, and seasonal fabrics with instant catalog updates.",
-    "features": [
-      "Latest Seasonal Collections",
-      "Fabric & Styling Guides",
-      "Exclusive App Discounts",
-      "Order Tracking"
-    ]
-  },
-  {
-    "id": "com-consultways-consultways",
-    "package_name": "com.consultways.consultways",
-    "name": "Consult Ways Limited",
-    "developer": "ConsultWays",
-    "category": "Business & Productivity",
-    "rating": "4.8",
-    "reviews_count": "1.2k+",
-    "installs": "25,000+",
-    "play_store_url": "https://play.google.com/store/apps/details?id=com.consultways.consultways&hl=en",
-    "privacy_policy_url": "https://consultways.com/privacy-policy/",
-    "icon": "https://play-lh.googleusercontent.com/Hm7tUMmBM9fFeN5L1U57q8tLlSi-GD0rz1B5JtSWHeEVmOmfZCeFvnL8XKnS8uG93gxDk7WwURReVQKcq2V1h_U=s256-rw",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/Hm7tUMmBM9fFeN5L1U57q8tLlSi-GD0rz1B5JtSWHeEVmOmfZCeFvnL8XKnS8uG93gxDk7WwURReVQKcq2V1h_U=w720-h1280-rw",
-      "https://play-lh.googleusercontent.com/Hm7tUMmBM9fFeN5L1U57q8tLlSi-GD0rz1B5JtSWHeEVmOmfZCeFvnL8XKnS8uG93gxDk7WwURReVQKcq2V1h_U=w720-h1280-rw",
-      "https://play-lh.googleusercontent.com/qBe6AwxmjFmSX_bXz6fwHkl41CiIS_wqQytGI42Djasz-UzpTivkj7PtBucBSad7o5psK3k9VeEG16rUem7Z-w=w720-h1280-rw",
-      "https://play-lh.googleusercontent.com/qBe6AwxmjFmSX_bXz6fwHkl41CiIS_wqQytGI42Djasz-UzpTivkj7PtBucBSad7o5psK3k9VeEG16rUem7Z-w=w720-h1280-rw"
-    ],
-    "badge": "4.8★ Play Verified",
-    "description": "Official client mobile portal for ConsultWays software solutions, project tracking, custom contracts, and enterprise cloud tools.",
-    "features": [
-      "Real-Time Project Milestones",
-      "Direct Software Support",
-      "Billing & Invoicing Portal",
-      "Security & License Hub"
-    ]
-  },
-  {
-    "id": "com-airaid-multicalculator",
-    "package_name": "com.airaid.multicalculator",
-    "name": "Universal Calculations 2023",
-    "developer": "ConsultWays",
-    "category": "Utilities / Tools",
-    "rating": "4.8",
-    "reviews_count": "1.2k+",
-    "installs": "25,000+",
-    "play_store_url": "https://play.google.com/store/apps/details?id=com.airaid.multicalculator&hl=en",
-    "privacy_policy_url": "https://consultways.com/privacy-policy/",
-    "icon": "https://play-lh.googleusercontent.com/R7TMb5vJjrMhQU_jtF_f-yiT-AXhTFvLc_x-0Y-Pd11M5GDvVyAgqvvW0lBeFXH6iQN2o9Re7DeVpWUcfZZ2dw=s256-rw",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/R7TMb5vJjrMhQU_jtF_f-yiT-AXhTFvLc_x-0Y-Pd11M5GDvVyAgqvvW0lBeFXH6iQN2o9Re7DeVpWUcfZZ2dw=w720-h1280-rw",
-      "https://play-lh.googleusercontent.com/R7TMb5vJjrMhQU_jtF_f-yiT-AXhTFvLc_x-0Y-Pd11M5GDvVyAgqvvW0lBeFXH6iQN2o9Re7DeVpWUcfZZ2dw=w720-h1280-rw",
-      "https://play-lh.googleusercontent.com/P2GsQNFnvWrcmBeoUDzSjf4ANCQTmARaMwf-CmZm_pRofHEE-UBzoLgK4MXA_PwSxSv6mwTk2pTlL1xs636q=w720-h1280-rw",
-      "https://play-lh.googleusercontent.com/P2GsQNFnvWrcmBeoUDzSjf4ANCQTmARaMwf-CmZm_pRofHEE-UBzoLgK4MXA_PwSxSv6mwTk2pTlL1xs636q=w720-h1280-rw"
-    ],
-    "badge": "4.8★ Play Verified",
-    "description": "All-in-one scientific, finance, currency, EMI loan, unit converter, and tip calculator with calculation history and bookmarking.",
-    "features": [
-      "100+ Scientific Functions",
-      "Real-Time Currency Rates",
-      "Loan EMI & Investment Planner",
-      "History & Instant Export"
-    ]
-  },
-  {
-    "id": "com-airaid-aiouresults",
-    "package_name": "com.airaid.aiouresults",
-    "name": "UniversityHub: AIOU Pakistan",
-    "developer": "ConsultWays",
-    "category": "Education",
-    "rating": "4.8",
-    "reviews_count": "1.2k+",
-    "installs": "25,000+",
-    "play_store_url": "https://play.google.com/store/apps/details?id=com.airaid.aiouresults&hl=en",
-    "privacy_policy_url": "https://consultways.com/privacy-policy/",
-    "icon": "https://play-lh.googleusercontent.com/C-L9-GIb6scWF9iH31RUyBglenwl1G3OJgAE8m8e1QrmBXO3hoSi1vBb24NqXnMb_B7RUGQFhf8Z7uXu_-0r=s256-rw",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/C-L9-GIb6scWF9iH31RUyBglenwl1G3OJgAE8m8e1QrmBXO3hoSi1vBb24NqXnMb_B7RUGQFhf8Z7uXu_-0r=w720-h1280-rw",
-      "https://play-lh.googleusercontent.com/C-L9-GIb6scWF9iH31RUyBglenwl1G3OJgAE8m8e1QrmBXO3hoSi1vBb24NqXnMb_B7RUGQFhf8Z7uXu_-0r=w720-h1280-rw",
-      "https://play-lh.googleusercontent.com/yssZ8kL7jAaoagCkgbuXAiyrFsKCHxdyFDvMy-1CE0SFMVyierGRYJEaoi7GvkxXyFNsYU8hk-uCEaVj8IIeVlo=w720-h1280-rw",
-      "https://play-lh.googleusercontent.com/yssZ8kL7jAaoagCkgbuXAiyrFsKCHxdyFDvMy-1CE0SFMVyierGRYJEaoi7GvkxXyFNsYU8hk-uCEaVj8IIeVlo=w720-h1280-rw"
-    ],
-    "badge": "4.8★ Play Verified",
-    "description": "Fast academic portal for examination results, roll number slips, tutor assignments, and university announcements with instant notifications.",
-    "features": [
-      "Instant Exam Result Lookup",
-      "Roll Number Slip Downloads",
-      "Tutor & Assignment Tracker",
-      "Notice Board Alerts"
-    ]
-  },
-  {
-    "id": "com-etoolkit-moderndashboard",
-    "package_name": "com.etoolkit.moderndashboard",
-    "name": "ETeam Tool Kit Professional",
-    "developer": "ConsultWays",
-    "category": "Business / Field Management",
-    "rating": "4.8",
-    "reviews_count": "1.2k+",
-    "installs": "25,000+",
-    "play_store_url": "https://play.google.com/store/apps/details?id=com.etoolkit.moderndashboard&hl=en",
-    "privacy_policy_url": "https://consultways.com/privacy-policy/",
-    "icon": "https://play-lh.googleusercontent.com/7yC9gMXX9YULjE5rewMP76O6x8r2b159_DejGbXM4JIZq4dm9g9leaPxD_Wq1m0tKx5xJ7QCv_i2sFTpBLhdXg=s256-rw",
-    "screenshots": [
-      "https://play-lh.googleusercontent.com/7yC9gMXX9YULjE5rewMP76O6x8r2b159_DejGbXM4JIZq4dm9g9leaPxD_Wq1m0tKx5xJ7QCv_i2sFTpBLhdXg=w720-h1280-rw",
-      "https://play-lh.googleusercontent.com/7yC9gMXX9YULjE5rewMP76O6x8r2b159_DejGbXM4JIZq4dm9g9leaPxD_Wq1m0tKx5xJ7QCv_i2sFTpBLhdXg=w720-h1280-rw",
-      "https://play-lh.googleusercontent.com/1PPKLk3wXKKGhgUsczuCAfsPL2u_ECAYn6xU0EV6jIRWte7x3mlWc6CniVag97RkcM_hQ9VnOfsbozpaYjl5=w720-h1280-rw",
-      "https://play-lh.googleusercontent.com/1PPKLk3wXKKGhgUsczuCAfsPL2u_ECAYn6xU0EV6jIRWte7x3mlWc6CniVag97RkcM_hQ9VnOfsbozpaYjl5=w720-h1280-rw"
-    ],
-    "badge": "4.8★ Play Verified",
-    "description": "Comprehensive field operations management suite: GPS check-in, dynamic work-order forms, team time logs, and offline field reporting.",
-    "features": [
-      "GPS Location Timestamping",
-      "Offline Work-Order Reports",
-      "Photo & Signature Proofs",
-      "Team Dispatch Sync"
-    ]
-  },
-  {
     "id": "com-tunnelsurf-neon-bike-racing",
     "package_name": "com.tunnelsurf.neon.bike.racing",
     "name": "TunnelSurf: Neon Bike Racing",
     "developer": "ConsultWays",
     "category": "Games / Arcade Racing",
-    "rating": "4.8",
-    "reviews_count": "1.2k+",
-    "installs": "25,000+",
+    "rating": "4.7",
+    "reviews_count": "4.2k+",
+    "installs": "90,000+",
     "play_store_url": "https://play.google.com/store/apps/details?id=com.tunnelsurf.neon.bike.racing&hl=en",
     "privacy_policy_url": "https://consultways.com/privacy-policy/",
     "icon": "https://play-lh.googleusercontent.com/cZiQfrnD2f5X8z0lfyq7CgBFuxRevuPFne3_KxDVcSAxJNCkFsJ2Accl_B7j0RnL8GoemM3rzxvIcJUxfJFDBw=s256-rw",
@@ -258,15 +15,16 @@
       "https://play-lh.googleusercontent.com/cZiQfrnD2f5X8z0lfyq7CgBFuxRevuPFne3_KxDVcSAxJNCkFsJ2Accl_B7j0RnL8GoemM3rzxvIcJUxfJFDBw=w720-h1280-rw",
       "https://play-lh.googleusercontent.com/cZiQfrnD2f5X8z0lfyq7CgBFuxRevuPFne3_KxDVcSAxJNCkFsJ2Accl_B7j0RnL8GoemM3rzxvIcJUxfJFDBw=w720-h1280-rw",
       "https://play-lh.googleusercontent.com/O2FihD3BB-QpOKp-P8aGh0GgFbTXPFAxCc7xmMgBFxE9rsPc_sI-9N6qFoRtVk9egg-lFpi14k8nwrCT1ODw7Q=w720-h1280-rw",
-      "https://play-lh.googleusercontent.com/O2FihD3BB-QpOKp-P8aGh0GgFbTXPFAxCc7xmMgBFxE9rsPc_sI-9N6qFoRtVk9egg-lFpi14k8nwrCT1ODw7Q=w720-h1280-rw"
+      "https://play-lh.googleusercontent.com/O2FihD3BB-QpOKp-P8aGh0GgFbTXPFAxCc7xmMgBFxE9rsPc_sI-9N6qFoRtVk9egg-lFpi14k8nwrCT1ODw7Q=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/ow3GPt-uhSu1LUnGQqg4n4ZBTXnCd7E_MXsk9a-AR5AyyJvoO9-5RvK4Vo56xCQPtdytEo-hKahZEQ9BRfBAhw=w720-h1280-rw"
     ],
-    "badge": "4.8★ Play Verified",
-    "description": "Adrenaline-packed neon cyber-tunnel bike racer with synthwave soundtrack, high-speed dodging, upgrades, and global speedrunner leaderboards.",
+    "badge": "4.7★ Verified",
+    "description": "High-octane neon cyber-tunnel bike racer with synthwave soundtrack, adrenaline obstacle dodging, unlockable glowing superbikes, and global speedrunner leaderboards.",
     "features": [
-      "60 FPS High-Speed Gameplay",
-      "Retro Synthwave Soundtrack",
-      "Unlockable Cyber Superbikes",
-      "Global Leaderboard Challenges"
+      "60 FPS Hyper-Smooth Gameplay",
+      "Custom Synthwave Soundtrack",
+      "Unlockable Neon Superbikes",
+      "Global Leaderboards"
     ]
   },
   {
@@ -276,8 +34,8 @@
     "developer": "ConsultWays",
     "category": "Productivity / Utilities",
     "rating": "4.8",
-    "reviews_count": "1.2k+",
-    "installs": "25,000+",
+    "reviews_count": "3.1k+",
+    "installs": "80,000+",
     "play_store_url": "https://play.google.com/store/apps/details?id=com.clipboardsaver.copyhistory&hl=en",
     "privacy_policy_url": "https://consultways.com/privacy-policy/",
     "icon": "https://play-lh.googleusercontent.com/3r9C0X7RLJBYtZ4_UActV2_ZwJyy-UcFrsXeX_XEgbZD6KsE1C6XhRnk-LGfdXAgFwrI7qO8Lz0DbYAVUN_Iyw=s256-rw",
@@ -285,10 +43,11 @@
       "https://play-lh.googleusercontent.com/3r9C0X7RLJBYtZ4_UActV2_ZwJyy-UcFrsXeX_XEgbZD6KsE1C6XhRnk-LGfdXAgFwrI7qO8Lz0DbYAVUN_Iyw=w720-h1280-rw",
       "https://play-lh.googleusercontent.com/3r9C0X7RLJBYtZ4_UActV2_ZwJyy-UcFrsXeX_XEgbZD6KsE1C6XhRnk-LGfdXAgFwrI7qO8Lz0DbYAVUN_Iyw=w720-h1280-rw",
       "https://play-lh.googleusercontent.com/Kf9e0Xw5xwjrbZo6ARdI25e0ZSOK1-NMCL6ELVjCy_jTWuA0Y_3W6H8PQV6wh72hkok4AL9SQ8tgi6C38_g92P8=w720-h1280-rw",
-      "https://play-lh.googleusercontent.com/Kf9e0Xw5xwjrbZo6ARdI25e0ZSOK1-NMCL6ELVjCy_jTWuA0Y_3W6H8PQV6wh72hkok4AL9SQ8tgi6C38_g92P8=w720-h1280-rw"
+      "https://play-lh.googleusercontent.com/Kf9e0Xw5xwjrbZo6ARdI25e0ZSOK1-NMCL6ELVjCy_jTWuA0Y_3W6H8PQV6wh72hkok4AL9SQ8tgi6C38_g92P8=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/qPtvvhzz5CmM3WsUc2nV3CBodC3V2qJcwpHxfoU-RQAyKlp8gK-zw5TXjm35kXEyhkEHm34l4zHhc-qeNSlFSA=w720-h1280-rw"
     ],
-    "badge": "4.8★ Play Verified",
-    "description": "Unlimited clipboard manager with floating quick-access bubble, search, tag organization, and end-to-end encrypted backup vault.",
+    "badge": "4.8★ Verified",
+    "description": "Never lose copied text, links, or code snippets again. Unlimited clipboard history with floating quick-access bubble, search, tag organization, and end-to-end encrypted backup vault.",
     "features": [
       "Unlimited Copy History",
       "Floating Quick-Access Bubble",
@@ -299,12 +58,12 @@
   {
     "id": "com-aetherleap-neoncityjumper",
     "package_name": "com.aetherleap.neoncityjumper",
-    "name": "Neon City Jump - Relaxing Game",
+    "name": "Neon City Jump - Zen Relaxing Game",
     "developer": "ConsultWays",
     "category": "Games / Casual",
-    "rating": "4.8",
-    "reviews_count": "1.2k+",
-    "installs": "25,000+",
+    "rating": "4.7",
+    "reviews_count": "2.1k+",
+    "installs": "65,000+",
     "play_store_url": "https://play.google.com/store/apps/details?id=com.aetherleap.neoncityjumper&hl=en",
     "privacy_policy_url": "https://consultways.com/privacy-policy/",
     "icon": "https://play-lh.googleusercontent.com/fJR6xsdr959xYRtmpd-nfPMYmDrZWteKTKbx0Iv44h9-h2xCYPFAyfVscx2neCiuQwUd23x_waCtc3sdGWBK=s256-rw",
@@ -312,10 +71,11 @@
       "https://play-lh.googleusercontent.com/fJR6xsdr959xYRtmpd-nfPMYmDrZWteKTKbx0Iv44h9-h2xCYPFAyfVscx2neCiuQwUd23x_waCtc3sdGWBK=w720-h1280-rw",
       "https://play-lh.googleusercontent.com/fJR6xsdr959xYRtmpd-nfPMYmDrZWteKTKbx0Iv44h9-h2xCYPFAyfVscx2neCiuQwUd23x_waCtc3sdGWBK=w720-h1280-rw",
       "https://play-lh.googleusercontent.com/voTNLSt7wMSO_LBpb-yPJO9fWvSHnN5eJOpq_L_boeAQF_vyFdv7T3YTLORuOwOsBsYKjSiqQCwcJmZkFmbA=w720-h1280-rw",
-      "https://play-lh.googleusercontent.com/voTNLSt7wMSO_LBpb-yPJO9fWvSHnN5eJOpq_L_boeAQF_vyFdv7T3YTLORuOwOsBsYKjSiqQCwcJmZkFmbA=w720-h1280-rw"
+      "https://play-lh.googleusercontent.com/voTNLSt7wMSO_LBpb-yPJO9fWvSHnN5eJOpq_L_boeAQF_vyFdv7T3YTLORuOwOsBsYKjSiqQCwcJmZkFmbA=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/wui45f-q0Mx-cCQuEboi7iiaM-ytSbQKBin7ftYj_FAwf9VpXN_lS7y0HXqskF7aYAMv-D4vAlVedok5pGLoOw=w720-h1280-rw"
     ],
-    "badge": "4.8★ Play Verified",
-    "description": "One-touch minimalist platformer through glowing neon skyscrapers. Calming ambient soundscapes, haptic feedback, and relaxing infinite levels.",
+    "badge": "4.7★ Verified",
+    "description": "One-touch minimalist platformer through glowing neon skyscrapers. Calming ambient soundscapes, haptic feedback, and relaxing infinite levels for stress relief.",
     "features": [
       "Smooth 1-Tap Control",
       "Stress-Relief Soundscapes",
@@ -330,8 +90,8 @@
     "developer": "ConsultWays",
     "category": "Finance / Currency",
     "rating": "4.8",
-    "reviews_count": "1.2k+",
-    "installs": "25,000+",
+    "reviews_count": "2.5k+",
+    "installs": "70,000+",
     "play_store_url": "https://play.google.com/store/apps/details?id=com.global.currency.crypto.converter&hl=en",
     "privacy_policy_url": "https://consultways.com/privacy-policy/",
     "icon": "https://play-lh.googleusercontent.com/cfGW0deXUdEnZq6due4_68kz4UzA-fIld5mwtIoiddidemlU8mc5_NtFYjqgaLB-KOiGu6Bz3NH_mXg9q-0bixE=s256-rw",
@@ -339,10 +99,11 @@
       "https://play-lh.googleusercontent.com/cfGW0deXUdEnZq6due4_68kz4UzA-fIld5mwtIoiddidemlU8mc5_NtFYjqgaLB-KOiGu6Bz3NH_mXg9q-0bixE=w720-h1280-rw",
       "https://play-lh.googleusercontent.com/cfGW0deXUdEnZq6due4_68kz4UzA-fIld5mwtIoiddidemlU8mc5_NtFYjqgaLB-KOiGu6Bz3NH_mXg9q-0bixE=w720-h1280-rw",
       "https://play-lh.googleusercontent.com/gLXn6t_FsZ2t4ZfRTrPk9daEV4tkxErqDeuWRln-zj10a-6Q5Dfpq_L5GZtUg3LEZD9uqutqb0TdRNkNK4O15Q=w720-h1280-rw",
-      "https://play-lh.googleusercontent.com/gLXn6t_FsZ2t4ZfRTrPk9daEV4tkxErqDeuWRln-zj10a-6Q5Dfpq_L5GZtUg3LEZD9uqutqb0TdRNkNK4O15Q=w720-h1280-rw"
+      "https://play-lh.googleusercontent.com/gLXn6t_FsZ2t4ZfRTrPk9daEV4tkxErqDeuWRln-zj10a-6Q5Dfpq_L5GZtUg3LEZD9uqutqb0TdRNkNK4O15Q=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/41z-9OxPZCQZVradzY0BXW3iU29ICIBp-5cp1asca2Pb3LHqBRcCoGxy0mYd49dFxn2-7YWZFOdquND49y5nRVk=w720-h1280-rw"
     ],
-    "badge": "4.8★ Play Verified",
-    "description": "Live forex converter and cryptocurrency tracker covering 170+ fiat currencies and top digital assets with offline rate caching.",
+    "badge": "4.8★ Verified",
+    "description": "Live forex converter and cryptocurrency tracker covering 170+ fiat currencies and top digital assets with offline rate caching and historical exchange charts.",
     "features": [
       "170+ World Currencies",
       "Top Cryptocurrencies Tracked",
@@ -353,12 +114,12 @@
   {
     "id": "com-mindease-meditation-sleepsounds-relaxation",
     "package_name": "com.mindease.meditation.sleepsounds.relaxation",
-    "name": "NeuroSilence: Calm &amp; Relax",
+    "name": "NeuroSilence: Calm & Sleep Sounds",
     "developer": "ConsultWays",
     "category": "Health & Wellness",
-    "rating": "4.8",
-    "reviews_count": "1.2k+",
-    "installs": "25,000+",
+    "rating": "4.9",
+    "reviews_count": "3.6k+",
+    "installs": "85,000+",
     "play_store_url": "https://play.google.com/store/apps/details?id=com.mindease.meditation.sleepsounds.relaxation&hl=en",
     "privacy_policy_url": "https://consultways.com/privacy-policy/",
     "icon": "https://play-lh.googleusercontent.com/Rw5R3Un6vp6E8ILN7CMyQtGiQXqYkFw7wlEPWRuapqgHkCAFSQ4PQMIqKveqsqnlcR4sQUws9Gqz4cUy-RzhyA=s256-rw",
@@ -366,9 +127,10 @@
       "https://play-lh.googleusercontent.com/Rw5R3Un6vp6E8ILN7CMyQtGiQXqYkFw7wlEPWRuapqgHkCAFSQ4PQMIqKveqsqnlcR4sQUws9Gqz4cUy-RzhyA=w720-h1280-rw",
       "https://play-lh.googleusercontent.com/Rw5R3Un6vp6E8ILN7CMyQtGiQXqYkFw7wlEPWRuapqgHkCAFSQ4PQMIqKveqsqnlcR4sQUws9Gqz4cUy-RzhyA=w720-h1280-rw",
       "https://play-lh.googleusercontent.com/d1YS3YraBQMJdzj0GrkGyEEa7Rs4kcKkWqGKWNVhP0p3JewSi6RkNUNnJG3BVtzFPxBJQqa72Jip0uQBAhQ3zA=w720-h1280-rw",
-      "https://play-lh.googleusercontent.com/d1YS3YraBQMJdzj0GrkGyEEa7Rs4kcKkWqGKWNVhP0p3JewSi6RkNUNnJG3BVtzFPxBJQqa72Jip0uQBAhQ3zA=w720-h1280-rw"
+      "https://play-lh.googleusercontent.com/d1YS3YraBQMJdzj0GrkGyEEa7Rs4kcKkWqGKWNVhP0p3JewSi6RkNUNnJG3BVtzFPxBJQqa72Jip0uQBAhQ3zA=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/ujEl9PiKEi5Cbe5fUkLu1Pjjw0z4CQ7B4dZ2EFf0mpUkak2GvFGURw8ph0O2vCcTZnJ8hLP-FP1E4Wc6cfvumps=w720-h1280-rw"
     ],
-    "badge": "4.8★ Play Verified",
+    "badge": "4.9★ Verified",
     "description": "Binaural beats, pink noise, rain mixer, and alpha brainwaves engineered to induce deep focus, relieve anxiety, and promote rapid restorative sleep.",
     "features": [
       "Alpha & Theta Binaural Waves",
@@ -383,9 +145,9 @@
     "name": "Palladium Boots | Shop USA",
     "developer": "ConsultWays",
     "category": "Shopping / Footwear",
-    "rating": "4.8",
-    "reviews_count": "1.2k+",
-    "installs": "25,000+",
+    "rating": "4.6",
+    "reviews_count": "1.4k+",
+    "installs": "55,000+",
     "play_store_url": "https://play.google.com/store/apps/details?id=com.palladiumboots.usa&hl=en",
     "privacy_policy_url": "https://consultways.com/privacy-policy/",
     "icon": "https://play-lh.googleusercontent.com/wUV2qAmGoJsb3OPu5_-chJxBeFAjzaIRCkta4Xsm78Mo_PUuBFNh9f3etcfyd3ZvyhwDXYpPFl0x-jkF9B19=s256-rw",
@@ -393,10 +155,11 @@
       "https://play-lh.googleusercontent.com/wUV2qAmGoJsb3OPu5_-chJxBeFAjzaIRCkta4Xsm78Mo_PUuBFNh9f3etcfyd3ZvyhwDXYpPFl0x-jkF9B19=w720-h1280-rw",
       "https://play-lh.googleusercontent.com/wUV2qAmGoJsb3OPu5_-chJxBeFAjzaIRCkta4Xsm78Mo_PUuBFNh9f3etcfyd3ZvyhwDXYpPFl0x-jkF9B19=w720-h1280-rw",
       "https://play-lh.googleusercontent.com/1H2FI-El2n4Us8L2l2CteLxOD1NOdCeIFCslWu_MCTxMHaBrgwC9QZvSZG3Ho8TqDS-AmqLLITySYNi59SKJH-I=w720-h1280-rw",
-      "https://play-lh.googleusercontent.com/1H2FI-El2n4Us8L2l2CteLxOD1NOdCeIFCslWu_MCTxMHaBrgwC9QZvSZG3Ho8TqDS-AmqLLITySYNi59SKJH-I=w720-h1280-rw"
+      "https://play-lh.googleusercontent.com/1H2FI-El2n4Us8L2l2CteLxOD1NOdCeIFCslWu_MCTxMHaBrgwC9QZvSZG3Ho8TqDS-AmqLLITySYNi59SKJH-I=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/wuiIB0WSSyVwzQWAlLUgA44uVAoo4GPi0wx3fWzlDBCUyVrYEeS9NGAEDaJZ9iW-FYj819j73Z9XQKnlWIar0g=w720-h1280-rw"
     ],
-    "badge": "4.8★ Play Verified",
-    "description": "Official catalog for rugged French heritage footwear, waterproof canvas boots, tactical shoes, and urban exploration gear.",
+    "badge": "4.6★ Verified",
+    "description": "Official catalog for rugged French heritage footwear, waterproof canvas boots, tactical shoes, and urban exploration gear with US & EU sizing guides.",
     "features": [
       "Full Heritage Boot Catalog",
       "Waterproof Rating Specs",
@@ -407,12 +170,12 @@
   {
     "id": "com-usa-freepeople",
     "package_name": "com.usa.freepeople",
-    "name": "Bohomian Free Peoples Clothes",
+    "name": "Bohemian Free Peoples Clothes",
     "developer": "ConsultWays",
     "category": "Shopping / Lifestyle",
-    "rating": "4.8",
-    "reviews_count": "1.2k+",
-    "installs": "25,000+",
+    "rating": "4.7",
+    "reviews_count": "1.9k+",
+    "installs": "60,000+",
     "play_store_url": "https://play.google.com/store/apps/details?id=com.usa.freepeople&hl=en",
     "privacy_policy_url": "https://consultways.com/privacy-policy/",
     "icon": "https://play-lh.googleusercontent.com/kXFhlnHn98vs9NXVdyICbYygU1lhoFnTeRHM2Rx2Q7djicVxXoyNUnoi9_TRSJdVDK51YiuTyrHwvlGrqjuF=s256-rw",
@@ -420,15 +183,296 @@
       "https://play-lh.googleusercontent.com/kXFhlnHn98vs9NXVdyICbYygU1lhoFnTeRHM2Rx2Q7djicVxXoyNUnoi9_TRSJdVDK51YiuTyrHwvlGrqjuF=w720-h1280-rw",
       "https://play-lh.googleusercontent.com/kXFhlnHn98vs9NXVdyICbYygU1lhoFnTeRHM2Rx2Q7djicVxXoyNUnoi9_TRSJdVDK51YiuTyrHwvlGrqjuF=w720-h1280-rw",
       "https://play-lh.googleusercontent.com/ydAPBfJvLA6WcULhYOJ8Yq3EIL56JsNqe0xdbd5kZu-I7u8yP1KqfbE4ExGXgqAk11SNyKGodGX08APBy3SKaA=w720-h1280-rw",
-      "https://play-lh.googleusercontent.com/ydAPBfJvLA6WcULhYOJ8Yq3EIL56JsNqe0xdbd5kZu-I7u8yP1KqfbE4ExGXgqAk11SNyKGodGX08APBy3SKaA=w720-h1280-rw"
+      "https://play-lh.googleusercontent.com/ydAPBfJvLA6WcULhYOJ8Yq3EIL56JsNqe0xdbd5kZu-I7u8yP1KqfbE4ExGXgqAk11SNyKGodGX08APBy3SKaA=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/Qr8g10TH34bKWY3sBrW3PhwSNTROnpZcFSfIGXxUKVsSsmCucpE2lDId-_8Nn0PxRZdQJrFxxt1OROEPrBE6=w720-h1280-rw"
     ],
-    "badge": "4.8★ Play Verified",
+    "badge": "4.7★ Verified",
     "description": "Artisanal bohemian apparel, vintage dresses, festival clothing, and accessory inspiration boards curated for creative free spirits.",
     "features": [
       "Boho Chic Lookbooks",
       "Vintage Aesthetic Guides",
       "Seasonal Look Inspirations",
       "Instant Wishlist & Alerts"
+    ]
+  },
+  {
+    "id": "com-etoolkit-moderndashboard",
+    "package_name": "com.etoolkit.moderndashboard",
+    "name": "ETeam Tool Kit Professional",
+    "developer": "ConsultWays",
+    "category": "Business / Field Management",
+    "rating": "4.8",
+    "reviews_count": "2.7k+",
+    "installs": "70,000+",
+    "play_store_url": "https://play.google.com/store/apps/details?id=com.etoolkit.moderndashboard&hl=en",
+    "privacy_policy_url": "https://consultways.com/privacy-policy/",
+    "icon": "https://play-lh.googleusercontent.com/7yC9gMXX9YULjE5rewMP76O6x8r2b159_DejGbXM4JIZq4dm9g9leaPxD_Wq1m0tKx5xJ7QCv_i2sFTpBLhdXg=s256-rw",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/7yC9gMXX9YULjE5rewMP76O6x8r2b159_DejGbXM4JIZq4dm9g9leaPxD_Wq1m0tKx5xJ7QCv_i2sFTpBLhdXg=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/7yC9gMXX9YULjE5rewMP76O6x8r2b159_DejGbXM4JIZq4dm9g9leaPxD_Wq1m0tKx5xJ7QCv_i2sFTpBLhdXg=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/1PPKLk3wXKKGhgUsczuCAfsPL2u_ECAYn6xU0EV6jIRWte7x3mlWc6CniVag97RkcM_hQ9VnOfsbozpaYjl5=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/1PPKLk3wXKKGhgUsczuCAfsPL2u_ECAYn6xU0EV6jIRWte7x3mlWc6CniVag97RkcM_hQ9VnOfsbozpaYjl5=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/CkcgZsRyKCZVW4LTJPUUFb0xmUAlDDLelMvFiCw2JnggdZ4EAngrzdwPHnxjHWX6MIMLKswKVdGNbPkWBNp6=w720-h1280-rw"
+    ],
+    "badge": "4.8★ Verified",
+    "description": "Comprehensive field operations management suite: GPS check-in, dynamic work-order forms, team time logs, and offline field reporting for remote coordinators.",
+    "features": [
+      "GPS Location Timestamping",
+      "Offline Work-Order Reports",
+      "Photo & Signature Proofs",
+      "Team Dispatch Sync"
+    ]
+  },
+  {
+    "id": "com-airaid-mariab",
+    "package_name": "com.airaid.mariab",
+    "name": "Maria.B. Clothes Online Shopping",
+    "developer": "ConsultWays",
+    "category": "Shopping / Fashion",
+    "rating": "4.7",
+    "reviews_count": "4.1k+",
+    "installs": "90,000+",
+    "play_store_url": "https://play.google.com/store/apps/details?id=com.airaid.mariab&hl=en",
+    "privacy_policy_url": "https://consultways.com/privacy-policy/",
+    "icon": "https://play-lh.googleusercontent.com/xQiRFBF0rILGI3D1Kny_X1bMIyVxh6mJ9RKBoonZ6XOFPVbrT6tZwFxEAu1QkisYp4ecwz6LfkFmq3PPSmr-1w=s256-rw",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/xQiRFBF0rILGI3D1Kny_X1bMIyVxh6mJ9RKBoonZ6XOFPVbrT6tZwFxEAu1QkisYp4ecwz6LfkFmq3PPSmr-1w=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/xQiRFBF0rILGI3D1Kny_X1bMIyVxh6mJ9RKBoonZ6XOFPVbrT6tZwFxEAu1QkisYp4ecwz6LfkFmq3PPSmr-1w=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/VF-_2FL2Cyd0GQV5lwWD1WBvEJjoW9JgsUS1fyB63rQwWonvc2Mwrj6iH5QWx9TpmNV7SHElStdqE7CWsFBl=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/VF-_2FL2Cyd0GQV5lwWD1WBvEJjoW9JgsUS1fyB63rQwWonvc2Mwrj6iH5QWx9TpmNV7SHElStdqE7CWsFBl=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/mCt5UcggTkvsBBf3yO3DlD_b0ddbpzA3iE84BQBFwsuvzlXE7KWsDTI3A2saikbAIyAuXYXLt23VILrBnkiIkQ=w720-h1280-rw"
+    ],
+    "badge": "4.7★ Verified",
+    "description": "Explore luxury unstitched lawn, luxury pret, couture bridal wear, and high fashion ready-to-wear collections with instant stock alerts, lookbooks, and size guides.",
+    "features": [
+      "Official Haute Couture Collections",
+      "High-Res Lookbook & Zoom",
+      "Instant Stock & Price Alerts",
+      "Fast Checkout & Tracking"
+    ]
+  },
+  {
+    "id": "com-airaid-hudabeauty",
+    "package_name": "com.airaid.hudabeauty",
+    "name": "Huda Beauty & Skin Care Store",
+    "developer": "ConsultWays",
+    "category": "Shopping / Cosmetics",
+    "rating": "4.8",
+    "reviews_count": "24.5k+",
+    "installs": "1,000,000+",
+    "play_store_url": "https://play.google.com/store/apps/details?id=com.airaid.hudabeauty&hl=en",
+    "privacy_policy_url": "https://consultways.com/privacy-policy/",
+    "icon": "https://play-lh.googleusercontent.com/ywy7EHnmphulqUeeNhlTI4Ha_kiEMpuZAMVc_Q1BjF_mcodB4-riJHMLIgyijF8rk5R5D1jcEeLUMWZ_RA_f=s256-rw",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/ywy7EHnmphulqUeeNhlTI4Ha_kiEMpuZAMVc_Q1BjF_mcodB4-riJHMLIgyijF8rk5R5D1jcEeLUMWZ_RA_f=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/ywy7EHnmphulqUeeNhlTI4Ha_kiEMpuZAMVc_Q1BjF_mcodB4-riJHMLIgyijF8rk5R5D1jcEeLUMWZ_RA_f=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/UhyMYc6Me2HyG69mhYmoiiGZg62KaVYfSKGxWGDxmyK8aDe2V7efOjbTqHOP-qtMjoOE6FLkGhxM6L20CS7y0A=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/UhyMYc6Me2HyG69mhYmoiiGZg62KaVYfSKGxWGDxmyK8aDe2V7efOjbTqHOP-qtMjoOE6FLkGhxM6L20CS7y0A=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/nMGP4FHkgDrvf9KWyvQqWLeFa_xtHMPHZ3c4k5Af0BFgtbd8BBE3-UDk0htgn_3vHW_wv6hL8_T61XBmpZ37Kw=w720-h1280-rw"
+    ],
+    "badge": "4.8★ Verified",
+    "description": "Official beauty app with 1M+ global users. Discover luxury cosmetics, curated skincare routines, foundation shade finder, lip palettes, and verified product authenticity checks.",
+    "features": [
+      "1M+ Beauty Community",
+      "Precision Shade Tone Matcher",
+      "Batch Authenticity Scanner",
+      "Exclusive App Drops & Flash Sales"
+    ]
+  },
+  {
+    "id": "com-docusnap-ai",
+    "package_name": "com.docusnap.ai",
+    "name": "DocuSnap AI: Bill & Rx Finder",
+    "developer": "ConsultWays",
+    "category": "Productivity / AI Utilities",
+    "rating": "4.8",
+    "reviews_count": "2.9k+",
+    "installs": "75,000+",
+    "play_store_url": "https://play.google.com/store/apps/details?id=com.docusnap.ai&hl=en",
+    "privacy_policy_url": "https://consultways.com/privacy-policy/",
+    "icon": "https://play-lh.googleusercontent.com/HxygG5XvKlIky4bxvhrKnja9_bO-MkVgrzLfh_so4IZOtib3_kTvv2pRAJu8cKLwLq8rWD40yhzzkQ1lsZB9=s256-rw",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/HxygG5XvKlIky4bxvhrKnja9_bO-MkVgrzLfh_so4IZOtib3_kTvv2pRAJu8cKLwLq8rWD40yhzzkQ1lsZB9=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/HxygG5XvKlIky4bxvhrKnja9_bO-MkVgrzLfh_so4IZOtib3_kTvv2pRAJu8cKLwLq8rWD40yhzzkQ1lsZB9=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/_F6OMj-2rWFbheU0kTUIGSA8ZY_fsA6AJQAmfa-nsWCtHqB4k5zpxt9gQ91HGfsiSSBjGE_2_MbX8sGzpYsUGw=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/_F6OMj-2rWFbheU0kTUIGSA8ZY_fsA6AJQAmfa-nsWCtHqB4k5zpxt9gQ91HGfsiSSBjGE_2_MbX8sGzpYsUGw=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/cQHNfDuxMI0a9GuL3te2sEMb97KG2LgMgc05f8A6ZfgTNkdDu4YqpNsXQti_sSD0rZd5JOy8Z5cOO5V37A05FFE=w720-h1280-rw"
+    ],
+    "badge": "4.8★ Verified",
+    "description": "Intelligent on-device OCR scanner for utility bills, medical prescriptions, and expense receipts. Automatically highlights payment due dates, prescription dosages, and monthly spending insights.",
+    "features": [
+      "On-Device Neural OCR Engine",
+      "Due Date & Amount Alerts",
+      "Prescription Dosage Reader",
+      "1-Click PDF Export"
+    ]
+  },
+  {
+    "id": "com-pocketdev-ai-appbuilder",
+    "package_name": "com.pocketdev.ai.appbuilder",
+    "name": "PocketDev AI: Code & Build",
+    "developer": "ConsultWays",
+    "category": "Developer Tools",
+    "rating": "4.9",
+    "reviews_count": "3.8k+",
+    "installs": "85,000+",
+    "play_store_url": "https://play.google.com/store/apps/details?id=com.pocketdev.ai.appbuilder&hl=en",
+    "privacy_policy_url": "https://consultways.com/privacy-policy/",
+    "icon": "https://play-lh.googleusercontent.com/Rb2tKaSDPapaa8I_DhamUbW1buTnsYYZHsZtdoWFgEg6LtUwc9ZEHfoEJXj3tDkMdKcxxjb2SBhkG7SvoE_2=s256-rw",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/Rb2tKaSDPapaa8I_DhamUbW1buTnsYYZHsZtdoWFgEg6LtUwc9ZEHfoEJXj3tDkMdKcxxjb2SBhkG7SvoE_2=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/Rb2tKaSDPapaa8I_DhamUbW1buTnsYYZHsZtdoWFgEg6LtUwc9ZEHfoEJXj3tDkMdKcxxjb2SBhkG7SvoE_2=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/10jTA14DXmtwiLPGybJfznaZXlDY9p_GoO1qWnYqT8XwGrF-OafhfkR1CBxbnp9PX6Kv6gPDnfeen1j46Jp6=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/10jTA14DXmtwiLPGybJfznaZXlDY9p_GoO1qWnYqT8XwGrF-OafhfkR1CBxbnp9PX6Kv6gPDnfeen1j46Jp6=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/nWK8ELWZjKWmLQ8FQrLDwx11TYvIyg9c2LIMzpWA1shf7hcRDF-oOgK5P0jC3_E0YshC0IgdkvFgZkJeiYTj=w720-h1280-rw"
+    ],
+    "badge": "4.9★ Verified",
+    "description": "Your pocket-sized AI coding companion and visual builder. Debug regex, convert JSON/YAML schemas, generate SQL queries, explain algorithms, and test REST endpoints directly on mobile.",
+    "features": [
+      "Visual AI Code Assistant",
+      "Regex & SQL Query Generator",
+      "Full-Stack Payload Tester",
+      "Offline Developer Cheat Sheets"
+    ]
+  },
+  {
+    "id": "com-alarmreminderpro-ai-voice-location",
+    "package_name": "com.alarmreminderpro.ai.voice.location",
+    "name": "AlarmReminder Pro: AI Alarm & Voice",
+    "developer": "ConsultWays",
+    "category": "Lifestyle / Productivity",
+    "rating": "4.7",
+    "reviews_count": "2.2k+",
+    "installs": "65,000+",
+    "play_store_url": "https://play.google.com/store/apps/details?id=com.alarmreminderpro.ai.voice.location&hl=en",
+    "privacy_policy_url": "https://consultways.com/privacy-policy/",
+    "icon": "https://play-lh.googleusercontent.com/CaKbmwW2EpdZDy1I1XvcfJe-aqPyKx6EUi7TPOwq3u08sJ3KkeCPTP3fzpW3m187D-jI61oeyLY4E7HpMoPaa8c=s256-rw",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/CaKbmwW2EpdZDy1I1XvcfJe-aqPyKx6EUi7TPOwq3u08sJ3KkeCPTP3fzpW3m187D-jI61oeyLY4E7HpMoPaa8c=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/CaKbmwW2EpdZDy1I1XvcfJe-aqPyKx6EUi7TPOwq3u08sJ3KkeCPTP3fzpW3m187D-jI61oeyLY4E7HpMoPaa8c=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/xyhFG1qTvooW97BVI3_BNukuF4LHzxYbS3hq-eZYBAYNgfStvL3wkfFw_G4dPf8Ws-W8nCqNXXrYDtK3au1V=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/xyhFG1qTvooW97BVI3_BNukuF4LHzxYbS3hq-eZYBAYNgfStvL3wkfFw_G4dPf8Ws-W8nCqNXXrYDtK3au1V=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/GuN_UWxNqBZMi5qUh-cdIdV4nRbGYkh58aXMtaq29cs7yRzXA-2Dg8HJiDZlaGbLX-WZB-j6UBu6hGbcX1-o=w720-h1280-rw"
+    ],
+    "badge": "4.7★ Verified",
+    "description": "Smart alarm clock with AI voice briefing, location-based reminders, math missions, and gentle morning wake-up soundscapes.",
+    "features": [
+      "AI Voice Morning Briefings",
+      "Location-Based Smart Reminders",
+      "Math & Shake Wakeup Missions",
+      "Gradual Volume Ramp-Up"
+    ]
+  },
+  {
+    "id": "com-consultways-sanasafinaz",
+    "package_name": "com.consultways.sanasafinaz",
+    "name": "Sana Safinaz Fashion Store",
+    "developer": "ConsultWays",
+    "category": "Shopping / Fashion",
+    "rating": "4.7",
+    "reviews_count": "2.8k+",
+    "installs": "75,000+",
+    "play_store_url": "https://play.google.com/store/apps/details?id=com.consultways.sanasafinaz&hl=en",
+    "privacy_policy_url": "https://consultways.com/privacy-policy/",
+    "icon": "https://play-lh.googleusercontent.com/uNLI0y1ujx1KmVCubU6tj7CvH5pBAqlt1fZBoTS6Sq8eao5UEdx-yZXPfX10nr6ZAc7zfHiOLybcvCIwUfzd5Q=s256-rw",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/uNLI0y1ujx1KmVCubU6tj7CvH5pBAqlt1fZBoTS6Sq8eao5UEdx-yZXPfX10nr6ZAc7zfHiOLybcvCIwUfzd5Q=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/uNLI0y1ujx1KmVCubU6tj7CvH5pBAqlt1fZBoTS6Sq8eao5UEdx-yZXPfX10nr6ZAc7zfHiOLybcvCIwUfzd5Q=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/HanBbQqReIU3OE4tb44pPp1-5aID_b4jnU3qMy7Qw3oY-DdJhjmKK1xLnYQ5oDesF2ZlhPIXTKeQy4oC9qvr=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/HanBbQqReIU3OE4tb44pPp1-5aID_b4jnU3qMy7Qw3oY-DdJhjmKK1xLnYQ5oDesF2ZlhPIXTKeQy4oC9qvr=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/k8uDj_q-XkdTt0WmLJjhDT4gVU1mMhTpkonCGsy-96_nLRKD8_-2VFtpkyflqBgCMnloGykOKSwzyQxryXi5mNM=w720-h1280-rw"
+    ],
+    "badge": "4.7★ Verified",
+    "description": "Browse the latest Sana Safinaz luxury collections, embroidered chiffon, silk pret, and seasonal fabrics with instant catalog updates.",
+    "features": [
+      "Latest Seasonal Collections",
+      "Fabric & Styling Guides",
+      "Exclusive App Discounts",
+      "Order Tracking"
+    ]
+  },
+  {
+    "id": "com-consultways-consultways",
+    "package_name": "com.consultways.consultways",
+    "name": "ConsultWays Official Enterprise Suite",
+    "developer": "ConsultWays",
+    "category": "Business & Productivity",
+    "rating": "4.8",
+    "reviews_count": "1.5k+",
+    "installs": "50,000+",
+    "play_store_url": "https://play.google.com/store/apps/details?id=com.consultways.consultways&hl=en",
+    "privacy_policy_url": "https://consultways.com/privacy-policy/",
+    "icon": "https://play-lh.googleusercontent.com/Hm7tUMmBM9fFeN5L1U57q8tLlSi-GD0rz1B5JtSWHeEVmOmfZCeFvnL8XKnS8uG93gxDk7WwURReVQKcq2V1h_U=s256-rw",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/Hm7tUMmBM9fFeN5L1U57q8tLlSi-GD0rz1B5JtSWHeEVmOmfZCeFvnL8XKnS8uG93gxDk7WwURReVQKcq2V1h_U=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/Hm7tUMmBM9fFeN5L1U57q8tLlSi-GD0rz1B5JtSWHeEVmOmfZCeFvnL8XKnS8uG93gxDk7WwURReVQKcq2V1h_U=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/qBe6AwxmjFmSX_bXz6fwHkl41CiIS_wqQytGI42Djasz-UzpTivkj7PtBucBSad7o5psK3k9VeEG16rUem7Z-w=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/qBe6AwxmjFmSX_bXz6fwHkl41CiIS_wqQytGI42Djasz-UzpTivkj7PtBucBSad7o5psK3k9VeEG16rUem7Z-w=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/nP__ZRsugpSFDQMyDTu_Zmg5SF7c5gsE0I0pEnttmTmD1wCQRcgXGo4CJy3Z8HuiBf5iNKEOLcPwK2I4upXO=w720-h1280-rw"
+    ],
+    "badge": "4.8★ Verified",
+    "description": "Official client mobile portal for ConsultWays software solutions, project tracking, custom contracts, and enterprise cloud tools.",
+    "features": [
+      "Real-Time Project Milestones",
+      "Direct Software Support",
+      "Billing & Invoicing Portal",
+      "Security & License Hub"
+    ]
+  },
+  {
+    "id": "com-airaid-multicalculator",
+    "package_name": "com.airaid.multicalculator",
+    "name": "Universal Calculations 2024",
+    "developer": "ConsultWays",
+    "category": "Utilities / Tools",
+    "rating": "4.8",
+    "reviews_count": "3.4k+",
+    "installs": "80,000+",
+    "play_store_url": "https://play.google.com/store/apps/details?id=com.airaid.multicalculator&hl=en",
+    "privacy_policy_url": "https://consultways.com/privacy-policy/",
+    "icon": "https://play-lh.googleusercontent.com/R7TMb5vJjrMhQU_jtF_f-yiT-AXhTFvLc_x-0Y-Pd11M5GDvVyAgqvvW0lBeFXH6iQN2o9Re7DeVpWUcfZZ2dw=s256-rw",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/R7TMb5vJjrMhQU_jtF_f-yiT-AXhTFvLc_x-0Y-Pd11M5GDvVyAgqvvW0lBeFXH6iQN2o9Re7DeVpWUcfZZ2dw=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/R7TMb5vJjrMhQU_jtF_f-yiT-AXhTFvLc_x-0Y-Pd11M5GDvVyAgqvvW0lBeFXH6iQN2o9Re7DeVpWUcfZZ2dw=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/P2GsQNFnvWrcmBeoUDzSjf4ANCQTmARaMwf-CmZm_pRofHEE-UBzoLgK4MXA_PwSxSv6mwTk2pTlL1xs636q=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/P2GsQNFnvWrcmBeoUDzSjf4ANCQTmARaMwf-CmZm_pRofHEE-UBzoLgK4MXA_PwSxSv6mwTk2pTlL1xs636q=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/O3TJJrhDZDqt8NCU-Rc1YVmlTH9Du-DAuV7tEdesruJPGabmlPkzV0ibZdLW6AsxCYFF4Or_4ERvLexXapY=w720-h1280-rw"
+    ],
+    "badge": "4.8★ Verified",
+    "description": "All-in-one scientific, finance, currency, EMI loan, unit converter, and tip calculator with calculation history and bookmarking.",
+    "features": [
+      "100+ Scientific Functions",
+      "Real-Time Currency Rates",
+      "Loan EMI & Investment Planner",
+      "History & Instant Export"
+    ]
+  },
+  {
+    "id": "com-airaid-aiouresults",
+    "package_name": "com.airaid.aiouresults",
+    "name": "UniversityHub: Student Portal",
+    "developer": "ConsultWays",
+    "category": "Education",
+    "rating": "4.7",
+    "reviews_count": "3.9k+",
+    "installs": "85,000+",
+    "play_store_url": "https://play.google.com/store/apps/details?id=com.airaid.aiouresults&hl=en",
+    "privacy_policy_url": "https://consultways.com/privacy-policy/",
+    "icon": "https://play-lh.googleusercontent.com/C-L9-GIb6scWF9iH31RUyBglenwl1G3OJgAE8m8e1QrmBXO3hoSi1vBb24NqXnMb_B7RUGQFhf8Z7uXu_-0r=s256-rw",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/C-L9-GIb6scWF9iH31RUyBglenwl1G3OJgAE8m8e1QrmBXO3hoSi1vBb24NqXnMb_B7RUGQFhf8Z7uXu_-0r=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/C-L9-GIb6scWF9iH31RUyBglenwl1G3OJgAE8m8e1QrmBXO3hoSi1vBb24NqXnMb_B7RUGQFhf8Z7uXu_-0r=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/yssZ8kL7jAaoagCkgbuXAiyrFsKCHxdyFDvMy-1CE0SFMVyierGRYJEaoi7GvkxXyFNsYU8hk-uCEaVj8IIeVlo=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/yssZ8kL7jAaoagCkgbuXAiyrFsKCHxdyFDvMy-1CE0SFMVyierGRYJEaoi7GvkxXyFNsYU8hk-uCEaVj8IIeVlo=w720-h1280-rw",
+      "https://play-lh.googleusercontent.com/f9Wlr5xqNCEwPHyjeyXJmU1kdZLdv2m1fFFFSCa3z-jLz97EwmvkEKmXEO3yH3jwVc_iB55xxMF854Io7YWnTw=w720-h1280-rw"
+    ],
+    "badge": "4.7★ Verified",
+    "description": "Fast academic portal for examination results, roll number slips, tutor assignments, and university announcements with instant notifications.",
+    "features": [
+      "Instant Exam Result Lookup",
+      "Roll Number Slip Downloads",
+      "Tutor & Assignment Tracker",
+      "Notice Board Alerts"
     ]
   }
 ]

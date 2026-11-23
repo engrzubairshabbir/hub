@@ -1,0 +1,507 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!--[if gte mso 9]>
+  <xml>
+    <x:ExcelWorkbook>
+      <x:ExcelWorksheets>
+        <x:ExcelWorksheet>
+          <x:Name>ConsultWays Apps Portfolio</x:Name>
+          <x:WorksheetOptions>
+            <x:DisplayGridlines/>
+          </x:WorksheetOptions>
+        </x:ExcelWorksheet>
+      </x:ExcelWorksheets>
+    </x:ExcelWorkbook>
+  </xml>
+  <![endif]-->
+  <style>
+    body { font-family: Calibri, 'Segoe UI', Arial, sans-serif; }
+    th { background-color: #1e293b; color: #ffffff; padding: 12px; font-size: 13px; text-transform: uppercase; }
+    td { border-bottom: 1px solid #e2e8f0; border-right: 1px solid #e2e8f0; }
+  </style>
+</head>
+<body>
+  <div style="padding:20px; background:#0b0f19; color:#ffffff; font-family:'Segoe UI',sans-serif;">
+    <h1 style="margin:0; font-size:24px; color:#38bdf8;">ConsultWays — Official Mobile Applications Portfolio</h1>
+    <p style="margin:5px 0 0 0; font-size:13px; color:#cbd5e1;">Live Google Play Store Android Apps & Verified Productions | Export Generated November 2026</p>
+  </div>
+  <table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; width:100%; font-family:'Segoe UI',sans-serif;">
+    <thead>
+      <tr>
+        <th style="width:40px;">#</th>
+        <th style="width:80px;">App Icon</th>
+        <th style="width:240px;">Application Title & Package</th>
+        <th style="width:160px;">Category</th>
+        <th style="width:80px;">Rating</th>
+        <th style="width:90px;">Reviews</th>
+        <th style="width:110px;">Downloads</th>
+        <th style="width:340px;">Description</th>
+        <th style="width:240px;">Key Features</th>
+        <th style="width:160px;">Play Store Direct URL</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+  <tr>
+    <td style="text-align:center; font-weight:bold; vertical-align:middle; padding:10px;">1</td>
+    <td style="text-align:center; vertical-align:middle; padding:8px;">
+      <a href="https://play.google.com/store/apps/details?id=com.tunnelsurf.neon.bike.racing&hl=en">
+        <img src="https://play-lh.googleusercontent.com/cZiQfrnD2f5X8z0lfyq7CgBFuxRevuPFne3_KxDVcSAxJNCkFsJ2Accl_B7j0RnL8GoemM3rzxvIcJUxfJFDBw=s256-rw" width="64" height="64" style="border-radius:14px; border:1px solid #cbd5e1;" alt="TunnelSurf: Neon Bike Racing"/>
+      </a>
+    </td>
+    <td style="vertical-align:middle; padding:10px; font-weight:bold; font-size:13px; color:#0f172a;">
+      <a href="https://play.google.com/store/apps/details?id=com.tunnelsurf.neon.bike.racing&hl=en" style="color:#2563eb; text-decoration:none;">TunnelSurf: Neon Bike Racing</a>
+      <div style="font-size:11px; font-weight:normal; color:#64748b;">com.tunnelsurf.neon.bike.racing</div>
+    </td>
+    <td style="vertical-align:middle; padding:10px; font-weight:bold; color:#0284c7;">Games / Arcade Racing</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; font-weight:bold; color:#f59e0b; font-size:13px;">★ 4.7</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; color:#64748b;">4.2k+</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; font-weight:bold; color:#059669; font-size:12px;">90,000+</td>
+    <td style="vertical-align:middle; padding:10px; font-size:11px; color:#334155; line-height:1.4;">High-octane neon cyber-tunnel bike racer with synthwave soundtrack, adrenaline obstacle dodging, unlockable glowing superbikes, and global speedrunner leaderboards.</td>
+    <td style="vertical-align:middle; padding:10px; font-size:11px; color:#475569;">
+      • 60 FPS Hyper-Smooth Gameplay<br/>• Custom Synthwave Soundtrack<br/>• Unlockable Neon Superbikes<br/>• Global Leaderboards
+    </td>
+    <td style="text-align:center; vertical-align:middle; padding:10px;">
+      <a href="https://play.google.com/store/apps/details?id=com.tunnelsurf.neon.bike.racing&hl=en" style="display:inline-block; padding:8px 14px; background:#01875f; color:#ffffff; font-weight:bold; font-size:11px; text-decoration:none; border-radius:8px;">
+        Open on Google Play
+      </a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td style="text-align:center; font-weight:bold; vertical-align:middle; padding:10px;">2</td>
+    <td style="text-align:center; vertical-align:middle; padding:8px;">
+      <a href="https://play.google.com/store/apps/details?id=com.clipboardsaver.copyhistory&hl=en">
+        <img src="https://play-lh.googleusercontent.com/3r9C0X7RLJBYtZ4_UActV2_ZwJyy-UcFrsXeX_XEgbZD6KsE1C6XhRnk-LGfdXAgFwrI7qO8Lz0DbYAVUN_Iyw=s256-rw" width="64" height="64" style="border-radius:14px; border:1px solid #cbd5e1;" alt="Clipboard Saver — Copy History"/>
+      </a>
+    </td>
+    <td style="vertical-align:middle; padding:10px; font-weight:bold; font-size:13px; color:#0f172a;">
+      <a href="https://play.google.com/store/apps/details?id=com.clipboardsaver.copyhistory&hl=en" style="color:#2563eb; text-decoration:none;">Clipboard Saver — Copy History</a>
+      <div style="font-size:11px; font-weight:normal; color:#64748b;">com.clipboardsaver.copyhistory</div>
+    </td>
+    <td style="vertical-align:middle; padding:10px; font-weight:bold; color:#0284c7;">Productivity / Utilities</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; font-weight:bold; color:#f59e0b; font-size:13px;">★ 4.8</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; color:#64748b;">3.1k+</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; font-weight:bold; color:#059669; font-size:12px;">80,000+</td>
+    <td style="vertical-align:middle; padding:10px; font-size:11px; color:#334155; line-height:1.4;">Never lose copied text, links, or code snippets again. Unlimited clipboard history with floating quick-access bubble, search, tag organization, and end-to-end encrypted backup vault.</td>
+    <td style="vertical-align:middle; padding:10px; font-size:11px; color:#475569;">
+      • Unlimited Copy History<br/>• Floating Quick-Access Bubble<br/>• Encrypted Private Vault<br/>• Pin Snippets & Code Blocks
+    </td>
+    <td style="text-align:center; vertical-align:middle; padding:10px;">
+      <a href="https://play.google.com/store/apps/details?id=com.clipboardsaver.copyhistory&hl=en" style="display:inline-block; padding:8px 14px; background:#01875f; color:#ffffff; font-weight:bold; font-size:11px; text-decoration:none; border-radius:8px;">
+        Open on Google Play
+      </a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td style="text-align:center; font-weight:bold; vertical-align:middle; padding:10px;">3</td>
+    <td style="text-align:center; vertical-align:middle; padding:8px;">
+      <a href="https://play.google.com/store/apps/details?id=com.aetherleap.neoncityjumper&hl=en">
+        <img src="https://play-lh.googleusercontent.com/fJR6xsdr959xYRtmpd-nfPMYmDrZWteKTKbx0Iv44h9-h2xCYPFAyfVscx2neCiuQwUd23x_waCtc3sdGWBK=s256-rw" width="64" height="64" style="border-radius:14px; border:1px solid #cbd5e1;" alt="Neon City Jump - Zen Relaxing Game"/>
+      </a>
+    </td>
+    <td style="vertical-align:middle; padding:10px; font-weight:bold; font-size:13px; color:#0f172a;">
+      <a href="https://play.google.com/store/apps/details?id=com.aetherleap.neoncityjumper&hl=en" style="color:#2563eb; text-decoration:none;">Neon City Jump - Zen Relaxing Game</a>
+      <div style="font-size:11px; font-weight:normal; color:#64748b;">com.aetherleap.neoncityjumper</div>
+    </td>
+    <td style="vertical-align:middle; padding:10px; font-weight:bold; color:#0284c7;">Games / Casual</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; font-weight:bold; color:#f59e0b; font-size:13px;">★ 4.7</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; color:#64748b;">2.1k+</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; font-weight:bold; color:#059669; font-size:12px;">65,000+</td>
+    <td style="vertical-align:middle; padding:10px; font-size:11px; color:#334155; line-height:1.4;">One-touch minimalist platformer through glowing neon skyscrapers. Calming ambient soundscapes, haptic feedback, and relaxing infinite levels for stress relief.</td>
+    <td style="vertical-align:middle; padding:10px; font-size:11px; color:#475569;">
+      • Smooth 1-Tap Control<br/>• Stress-Relief Soundscapes<br/>• Infinite Relaxing Modes<br/>• Zero Ads Offline Play
+    </td>
+    <td style="text-align:center; vertical-align:middle; padding:10px;">
+      <a href="https://play.google.com/store/apps/details?id=com.aetherleap.neoncityjumper&hl=en" style="display:inline-block; padding:8px 14px; background:#01875f; color:#ffffff; font-weight:bold; font-size:11px; text-decoration:none; border-radius:8px;">
+        Open on Google Play
+      </a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td style="text-align:center; font-weight:bold; vertical-align:middle; padding:10px;">4</td>
+    <td style="text-align:center; vertical-align:middle; padding:8px;">
+      <a href="https://play.google.com/store/apps/details?id=com.global.currency.crypto.converter&hl=en">
+        <img src="https://play-lh.googleusercontent.com/cfGW0deXUdEnZq6due4_68kz4UzA-fIld5mwtIoiddidemlU8mc5_NtFYjqgaLB-KOiGu6Bz3NH_mXg9q-0bixE=s256-rw" width="64" height="64" style="border-radius:14px; border:1px solid #cbd5e1;" alt="Global Exchange Pro Lite"/>
+      </a>
+    </td>
+    <td style="vertical-align:middle; padding:10px; font-weight:bold; font-size:13px; color:#0f172a;">
+      <a href="https://play.google.com/store/apps/details?id=com.global.currency.crypto.converter&hl=en" style="color:#2563eb; text-decoration:none;">Global Exchange Pro Lite</a>
+      <div style="font-size:11px; font-weight:normal; color:#64748b;">com.global.currency.crypto.converter</div>
+    </td>
+    <td style="vertical-align:middle; padding:10px; font-weight:bold; color:#0284c7;">Finance / Currency</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; font-weight:bold; color:#f59e0b; font-size:13px;">★ 4.8</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; color:#64748b;">2.5k+</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; font-weight:bold; color:#059669; font-size:12px;">70,000+</td>
+    <td style="vertical-align:middle; padding:10px; font-size:11px; color:#334155; line-height:1.4;">Live forex converter and cryptocurrency tracker covering 170+ fiat currencies and top digital assets with offline rate caching and historical exchange charts.</td>
+    <td style="vertical-align:middle; padding:10px; font-size:11px; color:#475569;">
+      • 170+ World Currencies<br/>• Top Cryptocurrencies Tracked<br/>• Interactive Historical Charts<br/>• Offline Travel Converter
+    </td>
+    <td style="text-align:center; vertical-align:middle; padding:10px;">
+      <a href="https://play.google.com/store/apps/details?id=com.global.currency.crypto.converter&hl=en" style="display:inline-block; padding:8px 14px; background:#01875f; color:#ffffff; font-weight:bold; font-size:11px; text-decoration:none; border-radius:8px;">
+        Open on Google Play
+      </a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td style="text-align:center; font-weight:bold; vertical-align:middle; padding:10px;">5</td>
+    <td style="text-align:center; vertical-align:middle; padding:8px;">
+      <a href="https://play.google.com/store/apps/details?id=com.mindease.meditation.sleepsounds.relaxation&hl=en">
+        <img src="https://play-lh.googleusercontent.com/Rw5R3Un6vp6E8ILN7CMyQtGiQXqYkFw7wlEPWRuapqgHkCAFSQ4PQMIqKveqsqnlcR4sQUws9Gqz4cUy-RzhyA=s256-rw" width="64" height="64" style="border-radius:14px; border:1px solid #cbd5e1;" alt="NeuroSilence: Calm & Sleep Sounds"/>
+      </a>
+    </td>
+    <td style="vertical-align:middle; padding:10px; font-weight:bold; font-size:13px; color:#0f172a;">
+      <a href="https://play.google.com/store/apps/details?id=com.mindease.meditation.sleepsounds.relaxation&hl=en" style="color:#2563eb; text-decoration:none;">NeuroSilence: Calm & Sleep Sounds</a>
+      <div style="font-size:11px; font-weight:normal; color:#64748b;">com.mindease.meditation.sleepsounds.relaxation</div>
+    </td>
+    <td style="vertical-align:middle; padding:10px; font-weight:bold; color:#0284c7;">Health & Wellness</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; font-weight:bold; color:#f59e0b; font-size:13px;">★ 4.9</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; color:#64748b;">3.6k+</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; font-weight:bold; color:#059669; font-size:12px;">85,000+</td>
+    <td style="vertical-align:middle; padding:10px; font-size:11px; color:#334155; line-height:1.4;">Binaural beats, pink noise, rain mixer, and alpha brainwaves engineered to induce deep focus, relieve anxiety, and promote rapid restorative sleep.</td>
+    <td style="vertical-align:middle; padding:10px; font-size:11px; color:#475569;">
+      • Alpha & Theta Binaural Waves<br/>• Custom Sound Environment Mixer<br/>• Sleep Timer with Fade Out<br/>• 100% Offline Audio
+    </td>
+    <td style="text-align:center; vertical-align:middle; padding:10px;">
+      <a href="https://play.google.com/store/apps/details?id=com.mindease.meditation.sleepsounds.relaxation&hl=en" style="display:inline-block; padding:8px 14px; background:#01875f; color:#ffffff; font-weight:bold; font-size:11px; text-decoration:none; border-radius:8px;">
+        Open on Google Play
+      </a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td style="text-align:center; font-weight:bold; vertical-align:middle; padding:10px;">6</td>
+    <td style="text-align:center; vertical-align:middle; padding:8px;">
+      <a href="https://play.google.com/store/apps/details?id=com.palladiumboots.usa&hl=en">
+        <img src="https://play-lh.googleusercontent.com/wUV2qAmGoJsb3OPu5_-chJxBeFAjzaIRCkta4Xsm78Mo_PUuBFNh9f3etcfyd3ZvyhwDXYpPFl0x-jkF9B19=s256-rw" width="64" height="64" style="border-radius:14px; border:1px solid #cbd5e1;" alt="Palladium Boots | Shop USA"/>
+      </a>
+    </td>
+    <td style="vertical-align:middle; padding:10px; font-weight:bold; font-size:13px; color:#0f172a;">
+      <a href="https://play.google.com/store/apps/details?id=com.palladiumboots.usa&hl=en" style="color:#2563eb; text-decoration:none;">Palladium Boots | Shop USA</a>
+      <div style="font-size:11px; font-weight:normal; color:#64748b;">com.palladiumboots.usa</div>
+    </td>
+    <td style="vertical-align:middle; padding:10px; font-weight:bold; color:#0284c7;">Shopping / Footwear</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; font-weight:bold; color:#f59e0b; font-size:13px;">★ 4.6</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; color:#64748b;">1.4k+</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; font-weight:bold; color:#059669; font-size:12px;">55,000+</td>
+    <td style="vertical-align:middle; padding:10px; font-size:11px; color:#334155; line-height:1.4;">Official catalog for rugged French heritage footwear, waterproof canvas boots, tactical shoes, and urban exploration gear with US & EU sizing guides.</td>
+    <td style="vertical-align:middle; padding:10px; font-size:11px; color:#475569;">
+      • Full Heritage Boot Catalog<br/>• Waterproof Rating Specs<br/>• US & EU Sizing Converter<br/>• Direct Purchase Links
+    </td>
+    <td style="text-align:center; vertical-align:middle; padding:10px;">
+      <a href="https://play.google.com/store/apps/details?id=com.palladiumboots.usa&hl=en" style="display:inline-block; padding:8px 14px; background:#01875f; color:#ffffff; font-weight:bold; font-size:11px; text-decoration:none; border-radius:8px;">
+        Open on Google Play
+      </a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td style="text-align:center; font-weight:bold; vertical-align:middle; padding:10px;">7</td>
+    <td style="text-align:center; vertical-align:middle; padding:8px;">
+      <a href="https://play.google.com/store/apps/details?id=com.usa.freepeople&hl=en">
+        <img src="https://play-lh.googleusercontent.com/kXFhlnHn98vs9NXVdyICbYygU1lhoFnTeRHM2Rx2Q7djicVxXoyNUnoi9_TRSJdVDK51YiuTyrHwvlGrqjuF=s256-rw" width="64" height="64" style="border-radius:14px; border:1px solid #cbd5e1;" alt="Bohemian Free Peoples Clothes"/>
+      </a>
+    </td>
+    <td style="vertical-align:middle; padding:10px; font-weight:bold; font-size:13px; color:#0f172a;">
+      <a href="https://play.google.com/store/apps/details?id=com.usa.freepeople&hl=en" style="color:#2563eb; text-decoration:none;">Bohemian Free Peoples Clothes</a>
+      <div style="font-size:11px; font-weight:normal; color:#64748b;">com.usa.freepeople</div>
+    </td>
+    <td style="vertical-align:middle; padding:10px; font-weight:bold; color:#0284c7;">Shopping / Lifestyle</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; font-weight:bold; color:#f59e0b; font-size:13px;">★ 4.7</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; color:#64748b;">1.9k+</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; font-weight:bold; color:#059669; font-size:12px;">60,000+</td>
+    <td style="vertical-align:middle; padding:10px; font-size:11px; color:#334155; line-height:1.4;">Artisanal bohemian apparel, vintage dresses, festival clothing, and accessory inspiration boards curated for creative free spirits.</td>
+    <td style="vertical-align:middle; padding:10px; font-size:11px; color:#475569;">
+      • Boho Chic Lookbooks<br/>• Vintage Aesthetic Guides<br/>• Seasonal Look Inspirations<br/>• Instant Wishlist & Alerts
+    </td>
+    <td style="text-align:center; vertical-align:middle; padding:10px;">
+      <a href="https://play.google.com/store/apps/details?id=com.usa.freepeople&hl=en" style="display:inline-block; padding:8px 14px; background:#01875f; color:#ffffff; font-weight:bold; font-size:11px; text-decoration:none; border-radius:8px;">
+        Open on Google Play
+      </a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td style="text-align:center; font-weight:bold; vertical-align:middle; padding:10px;">8</td>
+    <td style="text-align:center; vertical-align:middle; padding:8px;">
+      <a href="https://play.google.com/store/apps/details?id=com.etoolkit.moderndashboard&hl=en">
+        <img src="https://play-lh.googleusercontent.com/7yC9gMXX9YULjE5rewMP76O6x8r2b159_DejGbXM4JIZq4dm9g9leaPxD_Wq1m0tKx5xJ7QCv_i2sFTpBLhdXg=s256-rw" width="64" height="64" style="border-radius:14px; border:1px solid #cbd5e1;" alt="ETeam Tool Kit Professional"/>
+      </a>
+    </td>
+    <td style="vertical-align:middle; padding:10px; font-weight:bold; font-size:13px; color:#0f172a;">
+      <a href="https://play.google.com/store/apps/details?id=com.etoolkit.moderndashboard&hl=en" style="color:#2563eb; text-decoration:none;">ETeam Tool Kit Professional</a>
+      <div style="font-size:11px; font-weight:normal; color:#64748b;">com.etoolkit.moderndashboard</div>
+    </td>
+    <td style="vertical-align:middle; padding:10px; font-weight:bold; color:#0284c7;">Business / Field Management</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; font-weight:bold; color:#f59e0b; font-size:13px;">★ 4.8</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; color:#64748b;">2.7k+</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; font-weight:bold; color:#059669; font-size:12px;">70,000+</td>
+    <td style="vertical-align:middle; padding:10px; font-size:11px; color:#334155; line-height:1.4;">Comprehensive field operations management suite: GPS check-in, dynamic work-order forms, team time logs, and offline field reporting for remote coordinators.</td>
+    <td style="vertical-align:middle; padding:10px; font-size:11px; color:#475569;">
+      • GPS Location Timestamping<br/>• Offline Work-Order Reports<br/>• Photo & Signature Proofs<br/>• Team Dispatch Sync
+    </td>
+    <td style="text-align:center; vertical-align:middle; padding:10px;">
+      <a href="https://play.google.com/store/apps/details?id=com.etoolkit.moderndashboard&hl=en" style="display:inline-block; padding:8px 14px; background:#01875f; color:#ffffff; font-weight:bold; font-size:11px; text-decoration:none; border-radius:8px;">
+        Open on Google Play
+      </a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td style="text-align:center; font-weight:bold; vertical-align:middle; padding:10px;">9</td>
+    <td style="text-align:center; vertical-align:middle; padding:8px;">
+      <a href="https://play.google.com/store/apps/details?id=com.airaid.mariab&hl=en">
+        <img src="https://play-lh.googleusercontent.com/xQiRFBF0rILGI3D1Kny_X1bMIyVxh6mJ9RKBoonZ6XOFPVbrT6tZwFxEAu1QkisYp4ecwz6LfkFmq3PPSmr-1w=s256-rw" width="64" height="64" style="border-radius:14px; border:1px solid #cbd5e1;" alt="Maria.B. Clothes Online Shopping"/>
+      </a>
+    </td>
+    <td style="vertical-align:middle; padding:10px; font-weight:bold; font-size:13px; color:#0f172a;">
+      <a href="https://play.google.com/store/apps/details?id=com.airaid.mariab&hl=en" style="color:#2563eb; text-decoration:none;">Maria.B. Clothes Online Shopping</a>
+      <div style="font-size:11px; font-weight:normal; color:#64748b;">com.airaid.mariab</div>
+    </td>
+    <td style="vertical-align:middle; padding:10px; font-weight:bold; color:#0284c7;">Shopping / Fashion</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; font-weight:bold; color:#f59e0b; font-size:13px;">★ 4.7</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; color:#64748b;">4.1k+</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; font-weight:bold; color:#059669; font-size:12px;">90,000+</td>
+    <td style="vertical-align:middle; padding:10px; font-size:11px; color:#334155; line-height:1.4;">Explore luxury unstitched lawn, luxury pret, couture bridal wear, and high fashion ready-to-wear collections with instant stock alerts, lookbooks, and size guides.</td>
+    <td style="vertical-align:middle; padding:10px; font-size:11px; color:#475569;">
+      • Official Haute Couture Collections<br/>• High-Res Lookbook & Zoom<br/>• Instant Stock & Price Alerts<br/>• Fast Checkout & Tracking
+    </td>
+    <td style="text-align:center; vertical-align:middle; padding:10px;">
+      <a href="https://play.google.com/store/apps/details?id=com.airaid.mariab&hl=en" style="display:inline-block; padding:8px 14px; background:#01875f; color:#ffffff; font-weight:bold; font-size:11px; text-decoration:none; border-radius:8px;">
+        Open on Google Play
+      </a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td style="text-align:center; font-weight:bold; vertical-align:middle; padding:10px;">10</td>
+    <td style="text-align:center; vertical-align:middle; padding:8px;">
+      <a href="https://play.google.com/store/apps/details?id=com.airaid.hudabeauty&hl=en">
+        <img src="https://play-lh.googleusercontent.com/ywy7EHnmphulqUeeNhlTI4Ha_kiEMpuZAMVc_Q1BjF_mcodB4-riJHMLIgyijF8rk5R5D1jcEeLUMWZ_RA_f=s256-rw" width="64" height="64" style="border-radius:14px; border:1px solid #cbd5e1;" alt="Huda Beauty & Skin Care Store"/>
+      </a>
+    </td>
+    <td style="vertical-align:middle; padding:10px; font-weight:bold; font-size:13px; color:#0f172a;">
+      <a href="https://play.google.com/store/apps/details?id=com.airaid.hudabeauty&hl=en" style="color:#2563eb; text-decoration:none;">Huda Beauty & Skin Care Store</a>
+      <div style="font-size:11px; font-weight:normal; color:#64748b;">com.airaid.hudabeauty</div>
+    </td>
+    <td style="vertical-align:middle; padding:10px; font-weight:bold; color:#0284c7;">Shopping / Cosmetics</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; font-weight:bold; color:#f59e0b; font-size:13px;">★ 4.8</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; color:#64748b;">24.5k+</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; font-weight:bold; color:#059669; font-size:12px;">1,000,000+</td>
+    <td style="vertical-align:middle; padding:10px; font-size:11px; color:#334155; line-height:1.4;">Official beauty app with 1M+ global users. Discover luxury cosmetics, curated skincare routines, foundation shade finder, lip palettes, and verified product authenticity checks.</td>
+    <td style="vertical-align:middle; padding:10px; font-size:11px; color:#475569;">
+      • 1M+ Beauty Community<br/>• Precision Shade Tone Matcher<br/>• Batch Authenticity Scanner<br/>• Exclusive App Drops & Flash Sales
+    </td>
+    <td style="text-align:center; vertical-align:middle; padding:10px;">
+      <a href="https://play.google.com/store/apps/details?id=com.airaid.hudabeauty&hl=en" style="display:inline-block; padding:8px 14px; background:#01875f; color:#ffffff; font-weight:bold; font-size:11px; text-decoration:none; border-radius:8px;">
+        Open on Google Play
+      </a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td style="text-align:center; font-weight:bold; vertical-align:middle; padding:10px;">11</td>
+    <td style="text-align:center; vertical-align:middle; padding:8px;">
+      <a href="https://play.google.com/store/apps/details?id=com.docusnap.ai&hl=en">
+        <img src="https://play-lh.googleusercontent.com/HxygG5XvKlIky4bxvhrKnja9_bO-MkVgrzLfh_so4IZOtib3_kTvv2pRAJu8cKLwLq8rWD40yhzzkQ1lsZB9=s256-rw" width="64" height="64" style="border-radius:14px; border:1px solid #cbd5e1;" alt="DocuSnap AI: Bill & Rx Finder"/>
+      </a>
+    </td>
+    <td style="vertical-align:middle; padding:10px; font-weight:bold; font-size:13px; color:#0f172a;">
+      <a href="https://play.google.com/store/apps/details?id=com.docusnap.ai&hl=en" style="color:#2563eb; text-decoration:none;">DocuSnap AI: Bill & Rx Finder</a>
+      <div style="font-size:11px; font-weight:normal; color:#64748b;">com.docusnap.ai</div>
+    </td>
+    <td style="vertical-align:middle; padding:10px; font-weight:bold; color:#0284c7;">Productivity / AI Utilities</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; font-weight:bold; color:#f59e0b; font-size:13px;">★ 4.8</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; color:#64748b;">2.9k+</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; font-weight:bold; color:#059669; font-size:12px;">75,000+</td>
+    <td style="vertical-align:middle; padding:10px; font-size:11px; color:#334155; line-height:1.4;">Intelligent on-device OCR scanner for utility bills, medical prescriptions, and expense receipts. Automatically highlights payment due dates, prescription dosages, and monthly spending insights.</td>
+    <td style="vertical-align:middle; padding:10px; font-size:11px; color:#475569;">
+      • On-Device Neural OCR Engine<br/>• Due Date & Amount Alerts<br/>• Prescription Dosage Reader<br/>• 1-Click PDF Export
+    </td>
+    <td style="text-align:center; vertical-align:middle; padding:10px;">
+      <a href="https://play.google.com/store/apps/details?id=com.docusnap.ai&hl=en" style="display:inline-block; padding:8px 14px; background:#01875f; color:#ffffff; font-weight:bold; font-size:11px; text-decoration:none; border-radius:8px;">
+        Open on Google Play
+      </a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td style="text-align:center; font-weight:bold; vertical-align:middle; padding:10px;">12</td>
+    <td style="text-align:center; vertical-align:middle; padding:8px;">
+      <a href="https://play.google.com/store/apps/details?id=com.pocketdev.ai.appbuilder&hl=en">
+        <img src="https://play-lh.googleusercontent.com/Rb2tKaSDPapaa8I_DhamUbW1buTnsYYZHsZtdoWFgEg6LtUwc9ZEHfoEJXj3tDkMdKcxxjb2SBhkG7SvoE_2=s256-rw" width="64" height="64" style="border-radius:14px; border:1px solid #cbd5e1;" alt="PocketDev AI: Code & Build"/>
+      </a>
+    </td>
+    <td style="vertical-align:middle; padding:10px; font-weight:bold; font-size:13px; color:#0f172a;">
+      <a href="https://play.google.com/store/apps/details?id=com.pocketdev.ai.appbuilder&hl=en" style="color:#2563eb; text-decoration:none;">PocketDev AI: Code & Build</a>
+      <div style="font-size:11px; font-weight:normal; color:#64748b;">com.pocketdev.ai.appbuilder</div>
+    </td>
+    <td style="vertical-align:middle; padding:10px; font-weight:bold; color:#0284c7;">Developer Tools</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; font-weight:bold; color:#f59e0b; font-size:13px;">★ 4.9</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; color:#64748b;">3.8k+</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; font-weight:bold; color:#059669; font-size:12px;">85,000+</td>
+    <td style="vertical-align:middle; padding:10px; font-size:11px; color:#334155; line-height:1.4;">Your pocket-sized AI coding companion and visual builder. Debug regex, convert JSON/YAML schemas, generate SQL queries, explain algorithms, and test REST endpoints directly on mobile.</td>
+    <td style="vertical-align:middle; padding:10px; font-size:11px; color:#475569;">
+      • Visual AI Code Assistant<br/>• Regex & SQL Query Generator<br/>• Full-Stack Payload Tester<br/>• Offline Developer Cheat Sheets
+    </td>
+    <td style="text-align:center; vertical-align:middle; padding:10px;">
+      <a href="https://play.google.com/store/apps/details?id=com.pocketdev.ai.appbuilder&hl=en" style="display:inline-block; padding:8px 14px; background:#01875f; color:#ffffff; font-weight:bold; font-size:11px; text-decoration:none; border-radius:8px;">
+        Open on Google Play
+      </a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td style="text-align:center; font-weight:bold; vertical-align:middle; padding:10px;">13</td>
+    <td style="text-align:center; vertical-align:middle; padding:8px;">
+      <a href="https://play.google.com/store/apps/details?id=com.alarmreminderpro.ai.voice.location&hl=en">
+        <img src="https://play-lh.googleusercontent.com/CaKbmwW2EpdZDy1I1XvcfJe-aqPyKx6EUi7TPOwq3u08sJ3KkeCPTP3fzpW3m187D-jI61oeyLY4E7HpMoPaa8c=s256-rw" width="64" height="64" style="border-radius:14px; border:1px solid #cbd5e1;" alt="AlarmReminder Pro: AI Alarm & Voice"/>
+      </a>
+    </td>
+    <td style="vertical-align:middle; padding:10px; font-weight:bold; font-size:13px; color:#0f172a;">
+      <a href="https://play.google.com/store/apps/details?id=com.alarmreminderpro.ai.voice.location&hl=en" style="color:#2563eb; text-decoration:none;">AlarmReminder Pro: AI Alarm & Voice</a>
+      <div style="font-size:11px; font-weight:normal; color:#64748b;">com.alarmreminderpro.ai.voice.location</div>
+    </td>
+    <td style="vertical-align:middle; padding:10px; font-weight:bold; color:#0284c7;">Lifestyle / Productivity</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; font-weight:bold; color:#f59e0b; font-size:13px;">★ 4.7</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; color:#64748b;">2.2k+</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; font-weight:bold; color:#059669; font-size:12px;">65,000+</td>
+    <td style="vertical-align:middle; padding:10px; font-size:11px; color:#334155; line-height:1.4;">Smart alarm clock with AI voice briefing, location-based reminders, math missions, and gentle morning wake-up soundscapes.</td>
+    <td style="vertical-align:middle; padding:10px; font-size:11px; color:#475569;">
+      • AI Voice Morning Briefings<br/>• Location-Based Smart Reminders<br/>• Math & Shake Wakeup Missions<br/>• Gradual Volume Ramp-Up
+    </td>
+    <td style="text-align:center; vertical-align:middle; padding:10px;">
+      <a href="https://play.google.com/store/apps/details?id=com.alarmreminderpro.ai.voice.location&hl=en" style="display:inline-block; padding:8px 14px; background:#01875f; color:#ffffff; font-weight:bold; font-size:11px; text-decoration:none; border-radius:8px;">
+        Open on Google Play
+      </a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td style="text-align:center; font-weight:bold; vertical-align:middle; padding:10px;">14</td>
+    <td style="text-align:center; vertical-align:middle; padding:8px;">
+      <a href="https://play.google.com/store/apps/details?id=com.consultways.sanasafinaz&hl=en">
+        <img src="https://play-lh.googleusercontent.com/uNLI0y1ujx1KmVCubU6tj7CvH5pBAqlt1fZBoTS6Sq8eao5UEdx-yZXPfX10nr6ZAc7zfHiOLybcvCIwUfzd5Q=s256-rw" width="64" height="64" style="border-radius:14px; border:1px solid #cbd5e1;" alt="Sana Safinaz Fashion Store"/>
+      </a>
+    </td>
+    <td style="vertical-align:middle; padding:10px; font-weight:bold; font-size:13px; color:#0f172a;">
+      <a href="https://play.google.com/store/apps/details?id=com.consultways.sanasafinaz&hl=en" style="color:#2563eb; text-decoration:none;">Sana Safinaz Fashion Store</a>
+      <div style="font-size:11px; font-weight:normal; color:#64748b;">com.consultways.sanasafinaz</div>
+    </td>
+    <td style="vertical-align:middle; padding:10px; font-weight:bold; color:#0284c7;">Shopping / Fashion</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; font-weight:bold; color:#f59e0b; font-size:13px;">★ 4.7</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; color:#64748b;">2.8k+</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; font-weight:bold; color:#059669; font-size:12px;">75,000+</td>
+    <td style="vertical-align:middle; padding:10px; font-size:11px; color:#334155; line-height:1.4;">Browse the latest Sana Safinaz luxury collections, embroidered chiffon, silk pret, and seasonal fabrics with instant catalog updates.</td>
+    <td style="vertical-align:middle; padding:10px; font-size:11px; color:#475569;">
+      • Latest Seasonal Collections<br/>• Fabric & Styling Guides<br/>• Exclusive App Discounts<br/>• Order Tracking
+    </td>
+    <td style="text-align:center; vertical-align:middle; padding:10px;">
+      <a href="https://play.google.com/store/apps/details?id=com.consultways.sanasafinaz&hl=en" style="display:inline-block; padding:8px 14px; background:#01875f; color:#ffffff; font-weight:bold; font-size:11px; text-decoration:none; border-radius:8px;">
+        Open on Google Play
+      </a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td style="text-align:center; font-weight:bold; vertical-align:middle; padding:10px;">15</td>
+    <td style="text-align:center; vertical-align:middle; padding:8px;">
+      <a href="https://play.google.com/store/apps/details?id=com.consultways.consultways&hl=en">
+        <img src="https://play-lh.googleusercontent.com/Hm7tUMmBM9fFeN5L1U57q8tLlSi-GD0rz1B5JtSWHeEVmOmfZCeFvnL8XKnS8uG93gxDk7WwURReVQKcq2V1h_U=s256-rw" width="64" height="64" style="border-radius:14px; border:1px solid #cbd5e1;" alt="ConsultWays Official Enterprise Suite"/>
+      </a>
+    </td>
+    <td style="vertical-align:middle; padding:10px; font-weight:bold; font-size:13px; color:#0f172a;">
+      <a href="https://play.google.com/store/apps/details?id=com.consultways.consultways&hl=en" style="color:#2563eb; text-decoration:none;">ConsultWays Official Enterprise Suite</a>
+      <div style="font-size:11px; font-weight:normal; color:#64748b;">com.consultways.consultways</div>
+    </td>
+    <td style="vertical-align:middle; padding:10px; font-weight:bold; color:#0284c7;">Business & Productivity</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; font-weight:bold; color:#f59e0b; font-size:13px;">★ 4.8</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; color:#64748b;">1.5k+</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; font-weight:bold; color:#059669; font-size:12px;">50,000+</td>
+    <td style="vertical-align:middle; padding:10px; font-size:11px; color:#334155; line-height:1.4;">Official client mobile portal for ConsultWays software solutions, project tracking, custom contracts, and enterprise cloud tools.</td>
+    <td style="vertical-align:middle; padding:10px; font-size:11px; color:#475569;">
+      • Real-Time Project Milestones<br/>• Direct Software Support<br/>• Billing & Invoicing Portal<br/>• Security & License Hub
+    </td>
+    <td style="text-align:center; vertical-align:middle; padding:10px;">
+      <a href="https://play.google.com/store/apps/details?id=com.consultways.consultways&hl=en" style="display:inline-block; padding:8px 14px; background:#01875f; color:#ffffff; font-weight:bold; font-size:11px; text-decoration:none; border-radius:8px;">
+        Open on Google Play
+      </a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td style="text-align:center; font-weight:bold; vertical-align:middle; padding:10px;">16</td>
+    <td style="text-align:center; vertical-align:middle; padding:8px;">
+      <a href="https://play.google.com/store/apps/details?id=com.airaid.multicalculator&hl=en">
+        <img src="https://play-lh.googleusercontent.com/R7TMb5vJjrMhQU_jtF_f-yiT-AXhTFvLc_x-0Y-Pd11M5GDvVyAgqvvW0lBeFXH6iQN2o9Re7DeVpWUcfZZ2dw=s256-rw" width="64" height="64" style="border-radius:14px; border:1px solid #cbd5e1;" alt="Universal Calculations 2024"/>
+      </a>
+    </td>
+    <td style="vertical-align:middle; padding:10px; font-weight:bold; font-size:13px; color:#0f172a;">
+      <a href="https://play.google.com/store/apps/details?id=com.airaid.multicalculator&hl=en" style="color:#2563eb; text-decoration:none;">Universal Calculations 2024</a>
+      <div style="font-size:11px; font-weight:normal; color:#64748b;">com.airaid.multicalculator</div>
+    </td>
+    <td style="vertical-align:middle; padding:10px; font-weight:bold; color:#0284c7;">Utilities / Tools</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; font-weight:bold; color:#f59e0b; font-size:13px;">★ 4.8</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; color:#64748b;">3.4k+</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; font-weight:bold; color:#059669; font-size:12px;">80,000+</td>
+    <td style="vertical-align:middle; padding:10px; font-size:11px; color:#334155; line-height:1.4;">All-in-one scientific, finance, currency, EMI loan, unit converter, and tip calculator with calculation history and bookmarking.</td>
+    <td style="vertical-align:middle; padding:10px; font-size:11px; color:#475569;">
+      • 100+ Scientific Functions<br/>• Real-Time Currency Rates<br/>• Loan EMI & Investment Planner<br/>• History & Instant Export
+    </td>
+    <td style="text-align:center; vertical-align:middle; padding:10px;">
+      <a href="https://play.google.com/store/apps/details?id=com.airaid.multicalculator&hl=en" style="display:inline-block; padding:8px 14px; background:#01875f; color:#ffffff; font-weight:bold; font-size:11px; text-decoration:none; border-radius:8px;">
+        Open on Google Play
+      </a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td style="text-align:center; font-weight:bold; vertical-align:middle; padding:10px;">17</td>
+    <td style="text-align:center; vertical-align:middle; padding:8px;">
+      <a href="https://play.google.com/store/apps/details?id=com.airaid.aiouresults&hl=en">
+        <img src="https://play-lh.googleusercontent.com/C-L9-GIb6scWF9iH31RUyBglenwl1G3OJgAE8m8e1QrmBXO3hoSi1vBb24NqXnMb_B7RUGQFhf8Z7uXu_-0r=s256-rw" width="64" height="64" style="border-radius:14px; border:1px solid #cbd5e1;" alt="UniversityHub: Student Portal"/>
+      </a>
+    </td>
+    <td style="vertical-align:middle; padding:10px; font-weight:bold; font-size:13px; color:#0f172a;">
+      <a href="https://play.google.com/store/apps/details?id=com.airaid.aiouresults&hl=en" style="color:#2563eb; text-decoration:none;">UniversityHub: Student Portal</a>
+      <div style="font-size:11px; font-weight:normal; color:#64748b;">com.airaid.aiouresults</div>
+    </td>
+    <td style="vertical-align:middle; padding:10px; font-weight:bold; color:#0284c7;">Education</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; font-weight:bold; color:#f59e0b; font-size:13px;">★ 4.7</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; color:#64748b;">3.9k+</td>
+    <td style="text-align:center; vertical-align:middle; padding:10px; font-weight:bold; color:#059669; font-size:12px;">85,000+</td>
+    <td style="vertical-align:middle; padding:10px; font-size:11px; color:#334155; line-height:1.4;">Fast academic portal for examination results, roll number slips, tutor assignments, and university announcements with instant notifications.</td>
+    <td style="vertical-align:middle; padding:10px; font-size:11px; color:#475569;">
+      • Instant Exam Result Lookup<br/>• Roll Number Slip Downloads<br/>• Tutor & Assignment Tracker<br/>• Notice Board Alerts
+    </td>
+    <td style="text-align:center; vertical-align:middle; padding:10px;">
+      <a href="https://play.google.com/store/apps/details?id=com.airaid.aiouresults&hl=en" style="display:inline-block; padding:8px 14px; background:#01875f; color:#ffffff; font-weight:bold; font-size:11px; text-decoration:none; border-radius:8px;">
+        Open on Google Play
+      </a>
+    </td>
+  </tr>
+
+    </tbody>
+  </table>
+</body>
+</html>
