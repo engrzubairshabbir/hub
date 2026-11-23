@@ -1,26 +1,22 @@
 {
-  "version": 2,
   "cleanUrls": true,
   "trailingSlash": false,
-  "rewrites": [
-    { "source": "/apps", "destination": "/apps.html" },
-    { "source": "/marketplace", "destination": "/marketplace.html" },
-    { "source": "/post-listing", "destination": "/post-listing.html" },
-    { "source": "/dashboard", "destination": "/dashboard.html" },
-    { "source": "/privacy", "destination": "/privacy.html" },
-    { "source": "/terms", "destination": "/terms.html" },
-    { "source": "/refund", "destination": "/refund.html" },
-    { "source": "/shipping", "destination": "/shipping.html" },
-    { "source": "/item/:slug", "destination": "/marketplace.html" },
-    { "source": "/api/moderate", "destination": "/api/moderate.js" }
-  ],
   "headers": [
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
-        { "key": "X-XSS-Protection", "value": "1; mode=block" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        },
+        {
+          "key": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "key": "Expires",
+          "value": "0"
+        }
       ]
     }
   ]

@@ -1,9 +1,9 @@
 /**
  * ConsultWays Hub - Core Tactile Controller & Haptic Audio Engine
- * Integrated with FidoTown design principles
+ * Version 3.0.0 - Cache-Busted
  */
 
-// Web Audio API Synthesizer (Instant, Zero Latency Haptics)
+// Web Audio API Synthesizer
 let audioCtx = null;
 let audioMuted = localStorage.getItem('cw_audio_muted') === 'true';
 
@@ -100,17 +100,14 @@ function escapeHtml(str) {
     .replace(/'/g, '&#39;');
 }
 
-// Open App Detail Modal with Verified Google Play Data & Screenshots
+// Open App Detail Modal
 function openAppDetailModal(appId) {
   playHapticPop();
   const modal = document.getElementById('cwDetailModal');
   if (!modal) return;
 
   const app = (window.CW_STATE.apps || []).find(a => a.id === appId || a.package_name === appId);
-  if (!app) {
-    console.warn('App not found:', appId);
-    return;
-  }
+  if (!app) return;
 
   const content = document.getElementById('cwModalContent');
   const storeLink = app.play_store_url || ('https://play.google.com/store/apps/details?id=' + app.package_name + '&hl=en');
@@ -195,7 +192,7 @@ function openDetailModal(itemId) {
   const content = document.getElementById('cwProductModalContent');
   content.innerHTML = `
     <div class="flex flex-col md:flex-row gap-6 mb-4">
-      <img src="${item.image_url}" alt="${escapeHtml(item.title)}" class="w-full md:w-64 h-64 object-cover rounded-2xl border border-slate-200 bg-slate-50" onerror="this.src='https://consultways.com/wp-content/uploads/2025/01/Discover-the-Future-of-Online-Consultancy-with-Consultways.com-in-UK-USA-and-EU.webp'">
+      <img src="${item.image_url}" alt="${escapeHtml(item.title)}" class="w-full md:w-64 h-64 object-cover rounded-2xl border border-slate-200 bg-slate-50" onerror="this.src='https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=500&auto=format&fit=crop&q=80'">
       <div class="flex-1">
         <span class="px-3 py-1 text-xs font-bold rounded-full bg-blue-100 text-blue-700 mb-2 inline-block">${escapeHtml(item.type)}</span>
         <h2 class="text-2xl font-black text-slate-900 mb-2">${escapeHtml(item.title)}</h2>
@@ -225,7 +222,7 @@ function closeProductModal() {
   if (modal) modal.classList.add('hidden');
 }
 
-// Marketplace Filtering & Rendering
+// Marketplace Filtering & Rendering with In-Feed Native AdSense Cards
 function renderListings() {
   const container = document.getElementById('cwListingsGrid');
   if (!container) return;
@@ -255,28 +252,58 @@ function renderListings() {
     return;
   }
 
-  container.innerHTML = filtered.map(item => `
-    <div class="fido-card p-5 flex flex-col justify-between overflow-hidden cursor-pointer" onclick="openDetailModal('${item.id}')">
-      <div>
-        <div class="relative overflow-hidden rounded-2xl mb-4 h-48 bg-slate-100">
-          <img src="${item.image_url}" alt="${escapeHtml(item.title)}" class="w-full h-full object-cover transition-transform duration-300 hover:scale-105" loading="lazy" onerror="this.src='https://consultways.com/wp-content/uploads/2025/01/Discover-the-Future-of-Online-Consultancy-with-Consultways.com-in-UK-USA-and-EU.webp'">
-          <span class="absolute top-3 left-3 px-2.5 py-1 rounded-full text-[10px] font-extrabold bg-white/90 text-slate-800 shadow-sm backdrop-blur-sm">${item.type}</span>
+  const itemsHtml = [];
+  filtered.forEach((item, index) => {
+    // Product Card
+    itemsHtml.push(`
+      <div class="fido-card p-5 flex flex-col justify-between overflow-hidden cursor-pointer" onclick="openDetailModal('${item.id}')">
+        <div>
+          <div class="relative overflow-hidden rounded-2xl mb-4 h-48 bg-slate-100 shadow-inner">
+            <img src="${item.image_url}" alt="${escapeHtml(item.title)}" class="w-full h-full object-cover transition-transform duration-300 hover:scale-105" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=500&auto=format&fit=crop&q=80'">
+            <span class="absolute top-3 left-3 px-2.5 py-1 rounded-full text-[10px] font-extrabold bg-white/95 text-slate-800 shadow-sm backdrop-blur-sm">${item.type}</span>
+          </div>
+          <div class="flex items-center justify-between text-xs mb-1.5">
+            <span class="text-amber-500 font-bold">★ ${item.rating || '4.8'}</span>
+            <span class="text-slate-400 text-[11px] truncate max-w-[140px]">${escapeHtml(item.seller_name || 'ConsultWays')}</span>
+          </div>
+          <h3 class="font-black text-slate-900 text-sm mb-2 line-clamp-2 hover:text-orange-600 transition-colors">${escapeHtml(item.title)}</h3>
+          <p class="text-xs text-slate-500 line-clamp-2 mb-4 leading-relaxed">${escapeHtml(item.description)}</p>
         </div>
-        <div class="flex items-center justify-between text-xs mb-1.5">
-          <span class="text-amber-500 font-bold">★ ${item.rating || '4.8'}</span>
-          <span class="text-slate-400 text-[11px] truncate max-w-[140px]">${escapeHtml(item.seller_name || 'ConsultWays')}</span>
+        <div class="pt-3 border-t border-slate-100 flex items-center justify-between">
+          <div class="text-lg font-black text-orange-600">${item.price_display}</div>
+          <button onclick="event.stopPropagation(); openDetailModal('${item.id}')" class="px-3.5 py-2 rounded-xl bg-slate-900 hover:bg-orange-600 text-white text-xs font-bold transition-all">
+            Details
+          </button>
         </div>
-        <h3 class="font-black text-slate-900 text-sm mb-2 line-clamp-2 hover:text-orange-600 transition-colors">${escapeHtml(item.title)}</h3>
-        <p class="text-xs text-slate-500 line-clamp-2 mb-4 leading-relaxed">${escapeHtml(item.description)}</p>
       </div>
-      <div class="pt-3 border-t border-slate-100 flex items-center justify-between">
-        <div class="text-lg font-black text-orange-600">${item.price_display}</div>
-        <button onclick="event.stopPropagation(); openDetailModal('${item.id}')" class="px-3.5 py-2 rounded-xl bg-slate-900 hover:bg-orange-600 text-white text-xs font-bold transition-all">
-          Details
-        </button>
-      </div>
-    </div>
-  `).join('');
+    `);
+
+    // Insert Native In-Feed AdSense Card after card #4 and card #10
+    if (index === 3 || index === 9) {
+      itemsHtml.push(`
+        <div class="fido-card p-5 flex flex-col justify-between overflow-hidden border-2 border-orange-200/80 bg-gradient-to-br from-white via-orange-50/20 to-teal-50/20">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="px-2.5 py-0.5 rounded-full text-[10px] font-extrabold uppercase tracking-wider bg-orange-100 text-orange-700">Sponsored Deal</span>
+              <span class="text-[10px] font-bold text-slate-400">Google Partner</span>
+            </div>
+            <div class="min-h-[190px] flex items-center justify-center bg-slate-50/80 rounded-2xl border border-slate-100 p-2 overflow-hidden">
+              <ins class="adsbygoogle" style="display:block; width:100%;" data-ad-format="fluid" data-ad-layout-key="-fb+5w+4e-db+86" data-ad-client="ca-pub-8661538987218500" data-ad-slot="9842103551"></ins>
+              <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+            <h4 class="font-black text-slate-900 text-xs mt-3">Verified Global Services & Products</h4>
+            <p class="text-[11px] text-slate-500 line-clamp-2 mt-1">Explore trending certified tools, enterprise software, and international business deals.</p>
+          </div>
+          <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-orange-600">
+            <span>Special Featured Ad</span>
+            <span>Learn More →</span>
+          </div>
+        </div>
+      `);
+    }
+  });
+
+  container.innerHTML = itemsHtml.join('');
 }
 
 function filterCategory(type) {
